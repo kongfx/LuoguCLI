@@ -31,7 +31,7 @@ headers = {
     "X-Luogu-Type": "content-only",
     "X-Lentille-Request": "content-only",
 }
-_cookies = {'_uid': '1435654', '__client_id': '19a30a48f4ba8b10000df027df5b87b2d56c5fe6'}
+_cookies = json.load(open("src/cookie.json"))
 
 
 def get_csrf_token(
@@ -240,4 +240,5 @@ def punch(session: Session):
     if req.status_code != 200:
         return json_data['message']
     else:
+        print(json_data)
         return json_data['more']['html']
