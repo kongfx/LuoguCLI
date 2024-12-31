@@ -27,7 +27,7 @@ import tty
 from . import screenlib
 from . import mainpage
 from . import models
-
+from .. import utils
 
 class FirstPage(models.Page):
     def render(self):
@@ -74,5 +74,5 @@ Press Enter to continue. Press Ctrl-C to quit.
 
 
 if __name__ == '__main__':
-    firstpage = FirstPage(None)
+    firstpage = FirstPage(utils.Session(utils._cookies))
     firstpage.show()

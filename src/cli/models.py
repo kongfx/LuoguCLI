@@ -16,9 +16,10 @@
 
 
 from abc import ABC, abstractmethod
+from ..utils import Session
 
 class Page(ABC):
-    def __init__(self, session):
+    def __init__(self, session: Session):
         self.session = session
 
     '''

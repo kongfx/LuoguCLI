@@ -1,5 +1,7 @@
 from ..user import *
 from .screenlib import strRGBfgcolors, strRGBbgcolors
+import requests
+
 colormap={
     'Gray': strRGBfgcolors((191,191,191)),
     'Blue': strRGBfgcolors((14, 114, 210)),
@@ -14,13 +16,26 @@ colormap={
 }
 def renderUser(user: User) -> str:
     color: str = colormap[user.color]
-    badge = f'{color.replace("38;2", "48;2", 1)}\x1b[38;3;255;255;255m {user.badge} \x1b[0m'
+    badge = f'{color.replace("38;2", "48;2", 1)}\x1b[38;2;255;255;255m {user.badge} \x1b[0m'
     hanger = ''
     if user.ccf_level in range(3, 6):
-        hanger = f'{colormap["GreenHanger"]} {user.ccf_level} \x1b[0m'
+        hanger = f'{colormap["GreenHanger"]}\x1b[38;2;255;255;255m {user.ccf_level} \x1b[0m'
     elif user.ccf_level in range(6, 8):
-        hanger = f'{colormap["BlueHanger"]} {user.ccf_level} \x1b[0m'
+        hanger = f'{colormap["BlueHanger"]}\x1b[38;2;255;255;255m {user.ccf_level} \x1b[0m'
     elif user.ccf_level in range(8, 10):
-        hanger = f'{colormap["GoldenHanger"]} {user.ccf_level} \x1b[0m'
-    is_sp = False  # 这里为是否贡献者或支持者，显示粗斜体 Tag 贡献者
+        hanger = f'{colormap["GoldenHanger"]}\x1b[38;2;255;255;255m {user.ccf_level} \x1b[0m'
+    # 这里为是否贡献者或支持者，显示粗斜体 Tag 贡献者
+
+    rep = requests.get('https://kongfx.github.io/LuoguCLI/supportlist.json')
+    is_sp = False
+    if rep.status_code == 200:
+        data = rep.json()
+        if user.uid in data['data']:
+            is_sp = True
+
+    return (f'\x1b[1m{color}{user.name} {badge} \x1b[1m{hanger} '
+            f'{f"""\x1b[1m\x1b[3m{color.replace("38;2", 
+                                                "48;2",
+                                                1)}\x1b[38;2;255;255;255m 支持者 """ if is_sp else ''}\x1b[0m')
+
 
