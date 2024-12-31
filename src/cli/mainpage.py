@@ -24,8 +24,10 @@ from . import problempage
 from . import models
 from . import userrender
 from ..user import User
+from ..utils import *
 
 class MainPage(models.Page):
+    msg = ''
     def show(self):
         self.render()
 
@@ -49,33 +51,41 @@ Pu\x1b[4mn\x1b[0mch
 --
 You have 0 notification(s) Press `1' to read.
 You have 0 message(s) Press `2' to read.
+
+{self.msg}
 ''')
         char = sys.stdin.read(1)
-        while char.lower() not in 'aptcrdiunq12':
+
+        while True:
+            while char.lower() not in 'aptcrdiunq12':
+                char = sys.stdin.read(1)
+            match char.lower():
+                case 'a':
+                    pass
+                case 'p':
+                    pass
+                case 't':
+                    pass
+                case 'c':
+                    pass
+                case 'r':
+                    pass
+                case 'd':
+                    pass
+                case 'i':
+                    pass
+                case 'u':
+                    pass
+                case 'n':
+                    msg = punch(self.session)
+
+
+                case 'q':
+                    sys.exit()
+                case '1':
+                    pass
+                case '2':
+                    pass
             char = sys.stdin.read(1)
-        match char.lower():
-            case 'a':
-                pass
-            case 'p':
-                pass
-            case 't':
-                pass
-            case 'c':
-                pass
-            case 'r':
-                pass
-            case 'd':
-                pass
-            case 'i':
-                pass
-            case 'u':
-                pass
-            case 'n':
-                pass
-            case 'q':
-                sys.exit()
-            case '1':
-                pass
-            case '2':
-                pass
+
 
