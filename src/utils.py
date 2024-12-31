@@ -72,7 +72,6 @@ def _get(session: 'Session', name, url, forceDownload=False, showpbar=False):
                         file.write(data)
             else:
                 for data in response.iter_content(block_size):
-                    pbar.update(len(data))
                     file.write(data)
 
     download(url)
