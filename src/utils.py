@@ -55,7 +55,8 @@ def get_csrf_token(
 
 
 def _get(session: 'Session', name, url, forceDownload=False, showpbar=False):
-
+    if os.path.exists(f'data/{name}.json'):
+        return json.load(open(f'data/{name}.json', 'r'))
 
     def download(url):
         response = session.session.get(url, stream=True)
