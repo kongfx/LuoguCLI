@@ -21,15 +21,15 @@ from datetime import datetime
 import requests, json
 from tqdm.auto import tqdm
 
-import utils
+from  . import utils
 
-from utils import get_csrf_token, cached_method
+from .utils import get_csrf_token, cached_method
 
 #cookies={}
-from utils import _get
+from .utils import _get
 
 
-def list(session: utils.Session):
+def alist(session: utils.Session):
     url = "https://www.luogu.com.cn/problem/list"
     return _get(session, "problems", url)
 

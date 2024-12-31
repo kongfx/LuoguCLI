@@ -17,8 +17,8 @@
 
 from datetime import datetime
 
-from problem import Problem
-from utils import LazyList, cached_method, _get
+from .problem import Problem
+from .utils import LazyList, cached_method, _get
 
 
 # from . import Model

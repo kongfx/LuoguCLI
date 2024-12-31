@@ -17,8 +17,8 @@
 
 from datetime import datetime
 
-from utils import _get, get_csrf_token, Session, _post
-from user import User
+from .utils import _get, get_csrf_token, Session, _post
+from .user import User
 
 
 class Paste():
