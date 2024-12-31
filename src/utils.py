@@ -54,7 +54,7 @@ def get_csrf_token(
         return str(csrf_token)
 
 
-def _get(session: 'Session', name, url, forceDownload=False):
+def _get(session: 'Session', name, url, forceDownload=False, showpbar=False):
 
 
     def download(url):
@@ -64,8 +64,13 @@ def _get(session: 'Session', name, url, forceDownload=False):
         block_size = 1024
 
         with open(f'data/{name}.json', 'wb') as file:
-            with tqdm(total=total_size, unit='B', unit_scale=True, desc=f'Downloading {name}.json...',
-                      disable=False) as pbar:
+            if showpbar:
+                with tqdm(total=total_size, unit='B', unit_scale=True, desc=f'Downloading {name}.json...',
+                          disable=False) as pbar:
+                    for data in response.iter_content(block_size):
+                        pbar.update(len(data))
+                        file.write(data)
+            else:
                 for data in response.iter_content(block_size):
                     pbar.update(len(data))
                     file.write(data)
