@@ -29,6 +29,8 @@ from . import mainpage
 from . import models
 from .. import utils
 
+dbg = True
+
 class FirstPage(models.Page):
     def render(self):
         print('''\
@@ -46,13 +48,14 @@ Press Enter to continue. Press Ctrl-C to quit.
             screenlib.init()
             old_tcsetting = termios.tcgetattr(sys.stdin.fileno())
             tty.setcbreak(sys.stdin.fileno())
-            atexit.register(screenlib.on_exit)
-            screenlib.cursor_invisible()
-            def onexit(*args):
-                screenlib.cursor_visible()
-                termios.tcsetattr(sys.stdin.fileno(), termios.TCSADRAIN, old_tcsetting)
+            if not dbg:  # debug
+                atexit.register(screenlib.on_exit)
+                screenlib.cursor_invisible()
+                def onexit(*args):
+                    screenlib.cursor_visible()
+                    termios.tcsetattr(sys.stdin.fileno(), termios.TCSADRAIN, old_tcsetting)
 
-            atexit.register(onexit)
+                atexit.register(onexit)
             screenlib.move_cursor()
             self.render()
             char = sys.stdin.read(1)

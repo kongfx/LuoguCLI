@@ -55,9 +55,7 @@ def get_csrf_token(
 
 
 def _get(session: 'Session', name, url, forceDownload=False):
-    if os.path.exists(f'../data/{name}.json') and not forceDownload:
-        with open(f'../data/{name}.json', 'r') as f:
-            return json.load(f)
+
 
     def download(url):
         response = session.session.get(url, stream=True)
@@ -65,7 +63,7 @@ def _get(session: 'Session', name, url, forceDownload=False):
         total_size = int(response.headers.get('content-length', 0))
         block_size = 1024
 
-        with open(f'../data/{name}.json', 'wb') as file:
+        with open(f'data/{name}.json', 'wb') as file:
             with tqdm(total=total_size, unit='B', unit_scale=True, desc=f'Downloading {name}.json...',
                       disable=False) as pbar:
                 for data in response.iter_content(block_size):
@@ -73,7 +71,7 @@ def _get(session: 'Session', name, url, forceDownload=False):
                     file.write(data)
 
     download(url)
-    return json.load(open(f'../data/{name}.json', 'r'))
+    return json.load(open(f'data/{name}.json', 'r'))
 
 
 def _post(session: 'Session', url, data):

@@ -33,7 +33,7 @@ class MainPage(models.Page):
         screenlib.clear_screen()
         print(f'''\
 \x1b[38;2;255;255;255m\x1b[48;2;26;75;255m\x1b[2KLuoguCLI
-Logged as {userrender.renderUser(User(self.session, self.session.currentUser()['uid']))}
+\x1b[0mLogged as {userrender.renderUser(User(self.session, self.session.currentUser()['uid']))}
 \x1b[0m\x1b[4mA\x1b[0mpplications
 \x1b[4mP\x1b[0mroblems
 \x1b[4mT\x1b[0mraining
