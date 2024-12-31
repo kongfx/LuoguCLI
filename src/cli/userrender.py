@@ -33,7 +33,9 @@ colormap={
 }
 def renderUser(user: User) -> str:
     color: str = colormap[user.color]
-    badge = f'{color.replace("38;2", "48;2", 1)}\x1b[38;2;255;255;255m {user.badge} \x1b[0m'
+
+    badge = f'{color.replace("38;2", "48;2", 1)}\x1b[38;2;255;255;255m {user.badge} \x1b[0m' if user.badge else ''
+
     hanger = ''
     if user.ccf_level in range(3, 6):
         hanger = f'{colormap["GreenHanger"]}\x1b[38;2;255;255;255m {user.ccf_level} \x1b[0m'
