@@ -235,9 +235,9 @@ def dict_without_underscores(d: dict):
 
 
 def punch(session: Session):
-    req = session.session.post("https://www.luogu.com.cn/index/ajax_punch", headers={"x-csrf-token": get_csrf_token(session)})
+    req = session.session.post("https://www.luogu.com.cn/index/ajax_punch", headers={"x-csrf-token": get_csrf_token(session.session)})
     json_data = req.json()
-    if req.status_code != 200:
+    if json_data['code'] != 200:
         return json_data['message']
     else:
         print(json_data)
