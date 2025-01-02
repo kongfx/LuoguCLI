@@ -55,7 +55,7 @@ def get_csrf_token(
 
 
 def _get(session: 'Session', name, url, forceDownload=False, showpbar=False):
-    if os.path.exists(f'data/{name}.json'):
+    if os.path.exists(f'data/{name}.json') and not forceDownload:
         return json.load(open(f'data/{name}.json', 'r'))
 
     def download(url):
@@ -235,7 +235,7 @@ def dict_without_underscores(d: dict):
 
 
 def punch(session: Session):
-    req = session.session.post("https://www.luogu.com.cn/index/ajax_punch")
+    req = session.session.post("https://www.luogu.com.cn/index/ajax_punch", headers={"x-csrf-token": get_csrf_token(session)})
     json_data = req.json()
     if req.status_code != 200:
         return json_data['message']

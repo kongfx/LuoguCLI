@@ -26,11 +26,12 @@ colormap={
     'Orange': strRGBfgcolors((230,126,34)),
     'Red': strRGBfgcolors((231, 76, 60)),
     'Purple': strRGBfgcolors((142, 68, 173)),
-    'Brown': strRGBfgcolors((173, 139, 0)),
+    'Cheater': strRGBfgcolors((173, 139, 0)),
     'GreenHanger': strRGBbgcolors((94, 185, 94)),
     'BlueHanger': strRGBbgcolors((52, 152, 219)),
     'GoldenHanger': strRGBbgcolors((241, 196, 15)),
 }
+rep = requests.get('https://kongfx.github.io/LuoguCLI/supportlist.json')
 def renderUser(user: User) -> str:
     color: str = colormap[user.color]
 
@@ -41,11 +42,11 @@ def renderUser(user: User) -> str:
         hanger = f'{colormap["GreenHanger"]}\x1b[38;2;255;255;255m {user.ccf_level} \x1b[0m'
     elif user.ccf_level in range(6, 8):
         hanger = f'{colormap["BlueHanger"]}\x1b[38;2;255;255;255m {user.ccf_level} \x1b[0m'
-    elif user.ccf_level in range(8, 10):
+    elif user.ccf_level in range(8, 11):
         hanger = f'{colormap["GoldenHanger"]}\x1b[38;2;255;255;255m {user.ccf_level} \x1b[0m'
     # 这里为是否贡献者或支持者，显示粗斜体 Tag 贡献者
 
-    rep = requests.get('https://kongfx.github.io/LuoguCLI/supportlist.json')
+
     is_sp = False
     if rep.status_code == 200:
         data = rep.json()

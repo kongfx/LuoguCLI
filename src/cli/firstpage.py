@@ -29,7 +29,7 @@ from . import mainpage
 from . import models
 from .. import utils
 
-dbg = True
+dbg = False
 
 class FirstPage(models.Page):
     def render(self):
