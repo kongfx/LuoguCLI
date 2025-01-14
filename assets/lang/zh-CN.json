@@ -1,0 +1,17 @@
+{
+  "g.version": "快照版本/25w03a",
+  "welcome.versiontext": "本副本为版本%s.",
+  "main.logged_as": "目前登录账号：%s",
+  "main.applications": "应用程序（\u001b[4mA\u001b[0m）",
+  "main.problems": "题目列表（\u001b[4mP\u001b[0m）",
+  "main.training": "训练题单（\u001B[4mT\u001B[0m）",
+  "main.contest": "比赛列表（\u001B[4mC\u001B[0m）",
+  "main.record": "提交记录（\u001B[4mR\u001B[0m）",
+  "main.discuss": "讨论区（\u001B[4mD\u001B[0m）",
+  "main.articles": "文章广场（\u001B[4mI\u001B[0m）",
+  "main.user_nav": "用户导航（\u001B[4mU\u001B[0m）",
+  "main.punch": "每日打卡（\u001B[4mN\u001B[0m）",
+  "main.quit": "退出（\u001B[4mQ\u001B[0m）",
+  "notifications": "你有 %d 个未读通知，请按 1 读取。",
+  "unread_chat": "你有 %d 条未读消息，请按 2 读取。"
+}

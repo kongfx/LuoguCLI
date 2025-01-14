@@ -1,6 +1,6 @@
 #    LuoguCLI
-#    Copyright (C) 2024-2525  ko114
-
+#    Copyright (C) 2024-2025  ko114
+import json
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation, either version 3 of the License, or
@@ -25,16 +25,20 @@ from . import models
 from . import userrender
 from ..user import User
 from ..utils import *
+from .. import translate
+translator = translate.preferred_lang
+_ = translator.gettext
 
 class MainPage(models.Page):
     msg = ''
     def show(self):
+        global _
         self.render()
         char = sys.stdin.read(1)
 
         while True:
             self.render()
-            while char.lower() not in 'aptcrdiunq12s':
+            while char.lower() not in 'aptcrdiunq12sl':
                 char = sys.stdin.read(1)
             match char.lower():
                 case 'a':
@@ -67,30 +71,41 @@ class MainPage(models.Page):
                     x = int(input('User ID: '))
                     usr = User(self.session, x)
                     self.msg = userrender.renderUser(usr) + '\n'
+                case 'l':
+                    if translate.config['preferred_lang'] == 'en-US':
+                        translate.config['preferred_lang'] = 'zh-CN'
+                        json.dump(translate.config['preferred_lang'], open('config.json', 'w'))
+                    else:
+                        translate.config['preferred_lang'] = 'en-US'
+                        json.dump(translate.config['preferred_lang'], open('config.json', 'w'))
+                    _ = translate.Lang(translate.config['preferred_lang']).gettext
+
             char = sys.stdin.read(1)
 
     def render(self):
         screenlib.clear_screen()
         print(f'''\
 \x1b[38;2;255;255;255m\x1b[48;2;26;75;255m\x1b[2KLuoguCLI
-\x1b[0mLogged as {userrender.renderUser(User(self.session, self.session.currentUser()['uid']))}
-\x1b[0m\x1b[4mA\x1b[0mpplications
-\x1b[4mP\x1b[0mroblems
-\x1b[4mT\x1b[0mraining
-\x1b[4mC\x1b[0montest
-\x1b[4mR\x1b[0mecord
+\x1b[0m{_('main.logged_as') % "userrender.renderUser(User(self.session, self.session.currentUser()['uid']))" 
+        + '\x00Here:Cloudflare CAPTCHA'[0]}
+\x1b[0m{_('main.applications')}
+{_('main.problems')}
+{_('main.training')}
+{_('main.contest')}
+{_('main.record')}
 --
-\x1b[4mD\x1b[0miscuss
-Art\x1b[4mi\x1b[0mcles
+{_('main.discuss')}
+{_('main.articles')}
 --
-\x1b[4mU\x1b[0mser Nav
-Pu\x1b[4mn\x1b[0mch
-\x1b[4mQ\x1b[0muit
+{_('main.user_nav')}
+{_('main.punch')}
+{_('main.quit')}
 --
-You have 0 notification(s) Press `1' to read.
-You have 0 message(s) Press `2' to read.
+{_('notifications') % 0}
+{_('unread_chat') % 0}
 --
 Press `S' to show an user's name.
+(L)anguage/语言
 
 {self.msg}
 ''')

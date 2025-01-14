@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #    LuoguCLI
-#    Copyright (C) 2024-2525  ko114
+#    Copyright (C) 2024-2025  ko114
 
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by

@@ -13,4 +13,19 @@
 
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+import json
 
+config = open('config.json', 'r').read()
+config = json.loads(config)
+
+class Lang:
+    def __init__(self, lang_code: str):
+        self._lang = lang_code
+        self._words = open(f'assets/lang/{lang_code}.json').read()
+        self._words = json.loads(self._words)
+
+    def gettext(self, c: str):
+        return self._words.get(c, c)
+
+
+preferred_lang = Lang(config['preferred_lang'])

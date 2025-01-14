@@ -1,5 +1,5 @@
 #    LuoguCLI
-#    Copyright (C) 2024-2525  ko114
+#    Copyright (C) 2024-2025  ko114
 
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -21,24 +21,26 @@ import os
 import termios
 import tty
 
-
-
-
 from . import screenlib
 from . import mainpage
 from . import models
 from .. import utils
-
-dbg = False
+from .. import translate
+translator = translate.preferred_lang
+_ = translator.gettext
+dbg = True
 
 class FirstPage(models.Page):
     def render(self):
-        print('''\
+        print(f'''\
 LuoguCLI  Copyright (C) 2024-2025  ko114
 This program comes with ABSOLUTELY NO WARRANTY; for details type `w'.
 This is free software, and you are welcome to redistribute it
 under certain conditions; type `c' for details. 
 Press Enter to continue. Press Ctrl-C to quit.
+
+{_('welcome.versiontext') % _('g.version')}
+
         ''')
 
 
@@ -62,11 +64,11 @@ Press Enter to continue. Press Ctrl-C to quit.
 
             while char != '\n':
                 if char == 'w':
-                    os.system(f'{os.environ.get("PAGER", "more")} cli/warranty.txt')
+                    os.system(f'{os.environ.get("PAGER", "more")} src/cli/warranty.txt')
                     screenlib.init()
                     self.render()
                 elif char == 'c':
-                    os.system(f'{os.environ.get("PAGER", "more")} cli/copyright.txt')
+                    os.system(f'{os.environ.get("PAGER", "more")} src/cli/copyright.txt')
                     screenlib.init()
                     self.render()
                 char = sys.stdin.read(1)
