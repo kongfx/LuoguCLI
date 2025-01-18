@@ -13,5 +13,5 @@
   "main.punch": "Pu\u001b[4mn\u001b[0mch",
   "main.quit": "\u001b[4mQ\u001b[0muit",
   "notifications": "You have %d notification(s) Press `1' to read.",
-  "unread_chat": "You have %d message(s) Press `2' to read.",
+  "unread_chat": "You have %d message(s) Press `2' to read."
 }
