@@ -193,8 +193,8 @@ class Session:
         self.changeSlogan(newSlogan)
 
     def currentUser(self) -> dict:
-        # return self.session.post('https://www.luogu.com.cn/problem/list').json()['currentUser']
-        print(self.session.post('https://www.luogu.com.cn/problem/list').text)
+        return self.session.post('https://www.luogu.com.cn/problem/list').json()['currentUser']
+        # print(self.session.post('https://www.luogu.com.cn/problem/list').text)
 
 
 

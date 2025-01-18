@@ -28,7 +28,7 @@ from .. import utils
 from .. import translate
 translator = translate.preferred_lang
 _ = translator.gettext
-dbg = True
+dbg = translate.config['debug_mode']
 
 class FirstPage(models.Page):
     def render(self):

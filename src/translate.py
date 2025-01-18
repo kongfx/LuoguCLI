@@ -17,6 +17,7 @@ import json
 
 config = open('config.json', 'r').read()
 config = json.loads(config)
+print(config)
 
 class Lang:
     def __init__(self, lang_code: str):

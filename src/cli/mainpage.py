@@ -74,10 +74,10 @@ class MainPage(models.Page):
                 case 'l':
                     if translate.config['preferred_lang'] == 'en-US':
                         translate.config['preferred_lang'] = 'zh-CN'
-                        json.dump(translate.config['preferred_lang'], open('config.json', 'w'))
+                        json.dump(translate.config, open('config.json', 'w'))
                     else:
                         translate.config['preferred_lang'] = 'en-US'
-                        json.dump(translate.config['preferred_lang'], open('config.json', 'w'))
+                        json.dump(translate.config, open('config.json', 'w'))
                     _ = translate.Lang(translate.config['preferred_lang']).gettext
 
             char = sys.stdin.read(1)
@@ -86,7 +86,7 @@ class MainPage(models.Page):
         screenlib.clear_screen()
         print(f'''\
 \x1b[38;2;255;255;255m\x1b[48;2;26;75;255m\x1b[2KLuoguCLI
-\x1b[0m{_('main.logged_as') % "userrender.renderUser(User(self.session, self.session.currentUser()['uid']))" 
+\x1b[0m{_('main.logged_as') % userrender.renderUser(User(self.session, self.session.currentUser()['uid']))
         + '\x00Here:Cloudflare CAPTCHA'[0]}
 \x1b[0m{_('main.applications')}
 {_('main.problems')}

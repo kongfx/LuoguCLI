@@ -17,6 +17,7 @@
 
 from ..user import *
 from .screenlib import strRGBfgcolors, strRGBbgcolors
+from ..translate import config
 import requests
 
 colormap={
@@ -48,14 +49,20 @@ def renderUser(user: User) -> str:
 
 
     is_sp = False
+    sp_value = ''
     if rep.status_code == 200:
         data = rep.json()
-        if user.uid in data['data']:
-            is_sp = True
+        for i in data['data']:
+            if i['uid'] == user.uid:
+                is_sp = True
+                sp_value = i['content']
+                if 'translate' in sp_value:
+                    sp_value = sp_value['translate'][config['preferred_lang']]
+
 
     return (f'\x1b[1m{color}{user.name} {badge} \x1b[1m{hanger} '
             f'{f"""\x1b[1m\x1b[3m{color.replace("38;2", 
                                                 "48;2",
-                                                1)}\x1b[38;2;255;255;255m 支持者 """ if is_sp else ''}\x1b[0m')
+                                                1)}\x1b[38;2;255;255;255m {sp_value} """ if is_sp else ''}\x1b[0m')
 
 

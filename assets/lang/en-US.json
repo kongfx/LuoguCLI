@@ -1,5 +1,5 @@
 {
-  "g.version": "snapshot/25w03a",
+  "g.version": "snapshot/25w03b",
   "welcome.versiontext": "This is version %s.",
   "main.logged_as": "Logged as %s.",
   "main.applications": "\u001b[4mA\u001b[0mpplications",
@@ -13,5 +13,6 @@
   "main.punch": "Pu\u001b[4mn\u001b[0mch",
   "main.quit": "\u001b[4mQ\u001b[0muit",
   "notifications": "You have %d notification(s) Press `1' to read.",
-  "unread_chat": "You have %d message(s) Press `2' to read."
+  "unread_chat": "You have %d message(s) Press `2' to read.",
+  ""
 }
