@@ -44,7 +44,8 @@ class MainPage(models.Page):
                 case 'a':
                     pass
                 case 'p':
-                    pass
+                    p = problempage.ProblemPage(self.session)
+                    p.show()
                 case 't':
                     pass
                 case 'c':
@@ -58,8 +59,7 @@ class MainPage(models.Page):
                 case 'u':
                     pass
                 case 'n':
-                    msg = punch(self.session)
-
+                    self.msg = punch(self.session)
                 case 'q':
                     sys.exit()
                 case '1':
@@ -101,8 +101,8 @@ class MainPage(models.Page):
 {_('main.punch')}
 {_('main.quit')}
 --
-{_('notifications') % 0}
-{_('unread_chat') % 0}
+{_('notifications') % self.session.unreadNoticeCount()}
+{_('unread_chat') % self.session.unreadMessageCount()}
 --
 Press `S' to show an user's name.
 (L)anguage/语言

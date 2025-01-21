@@ -1,0 +1,2978 @@
+{
+    "pageTree": {
+        "name": "\u6d1b\u8c37",
+        "template": "Excited",
+        "route": "index",
+        "children": [
+            {
+                "route": "theme.list",
+                "template": "theme.list",
+                "name": "\u4e3b\u9898\u5546\u5e97",
+                "children": [
+                    {
+                        "route": "theme.design",
+                        "template": "theme.designer",
+                        "name": "\u4e3b\u9898\u8bbe\u8ba1",
+                        "url": null
+                    }
+                ],
+                "url": "/theme/list"
+            },
+            {
+                "route": "user.show",
+                "template": "user.show",
+                "name": "\u4e2a\u4eba\u4e2d\u5fc3",
+                "url": null
+            },
+            {
+                "route": "problem.list",
+                "template": "problem.list",
+                "name": "\u9898\u76ee\u5217\u8868",
+                "children": [
+                    {
+                        "route": "problem.show",
+                        "template": "problem.show",
+                        "name": "\u9898\u76ee\u8be6\u60c5",
+                        "children": [
+                            {
+                                "route": "problem.edit",
+                                "template": "problem.edit",
+                                "name": "\u9898\u76ee\u7f16\u8f91",
+                                "url": null
+                            },
+                            {
+                                "route": "problem.solution",
+                                "template": "problem.solution",
+                                "name": "\u67e5\u770b\u9898\u89e3",
+                                "url": null
+                            }
+                        ],
+                        "url": null
+                    }
+                ],
+                "url": "/problem/list"
+            },
+            {
+                "name": "\u6bd4\u8d5b\u5217\u8868",
+                "template": "contest.list",
+                "route": "contest.list",
+                "children": [
+                    {
+                        "name": "\u6bd4\u8d5b\u8be6\u60c5",
+                        "route": "contest.show",
+                        "template": "contest.show",
+                        "url": null
+                    },
+                    {
+                        "name": "\u7f16\u8f91\u6bd4\u8d5b",
+                        "template": "contest.edit",
+                        "route": "contest.edit",
+                        "url": null
+                    }
+                ],
+                "url": "/contest/list"
+            },
+            {
+                "name": "\u8bc4\u6d4b\u8bb0\u5f55",
+                "template": "record.list",
+                "route": "record.list",
+                "children": [
+                    {
+                        "name": "\u8bc4\u6d4b\u8be6\u60c5",
+                        "template": "record.show",
+                        "route": "record.show",
+                        "url": null
+                    }
+                ],
+                "url": "/record/list"
+            },
+            {
+                "name": "\u8ba8\u8bba\u5217\u8868",
+                "template": "discuss.list",
+                "route": "discuss.list",
+                "children": [
+                    {
+                        "name": "\u8ba8\u8bba\u8be6\u60c5",
+                        "template": "discuss.show",
+                        "route": "discuss.show"
+                    }
+                ]
+            },
+            {
+                "name": "\u9898\u5355\u5217\u8868",
+                "template": "training.list",
+                "route": "training.list",
+                "children": [
+                    {
+                        "name": "\u9898\u5355\u8be6\u60c5",
+                        "template": "training.show",
+                        "route": "training.show",
+                        "url": null
+                    },
+                    {
+                        "name": "\u7f16\u8f91\u9898\u5355",
+                        "template": "training.edit",
+                        "route": "training.edit",
+                        "url": null
+                    }
+                ],
+                "url": "/training/list"
+            },
+            {
+                "name": "\u56e2\u961f\u8be6\u60c5",
+                "template": "team.show",
+                "route": "team.show",
+                "children": [
+                    {
+                        "name": "\u56e2\u961f\u8bbe\u7f6e",
+                        "template": "team.setting",
+                        "route": "team.setting",
+                        "url": null
+                    },
+                    {
+                        "name": "\u56e2\u961f\u5347\u7ea7",
+                        "template": "team.upgrade",
+                        "route": "team.upgrade",
+                        "url": null
+                    }
+                ],
+                "url": null
+            },
+            {
+                "name": "\u6211\u7684\u4e13\u680f",
+                "template": "article.mine",
+                "route": "article.mine",
+                "children": [
+                    {
+                        "name": "\u65b0\u5efa\u6587\u7ae0",
+                        "template": "article.new",
+                        "route": "article.new"
+                    },
+                    {
+                        "name": "\u7f16\u8f91\u6587\u7ae0",
+                        "template": "article.edit",
+                        "route": "article.edit"
+                    }
+                ]
+            },
+            {
+                "name": "\u521b\u5efa\u9898\u5355",
+                "template": "team.create",
+                "route": "team.create",
+                "url": "/team/create"
+            },
+            {
+                "name": "\u56fe\u7247\u4e0a\u4f20",
+                "template": "image.list",
+                "route": "image.list",
+                "url": "/image"
+            },
+            {
+                "name": "\u4e91\u526a\u8d34\u677f",
+                "template": "paste.list",
+                "route": "paste.list",
+                "url": "/paste"
+            },
+            {
+                "name": "\u4e91\u526a\u8d34\u677f",
+                "template": "paste.show",
+                "route": "paste.show",
+                "url": null
+            },
+            {
+                "name": "\u5495\u503c\u6392\u540d",
+                "template": "rank.list",
+                "route": "ranking.list",
+                "url": "/ranking"
+            },
+            {
+                "name": "\u521b\u5efa\u56e2\u961f",
+                "template": "Excited",
+                "route": "team.apply"
+            }
+        ],
+        "url": "/"
+    },
+    "ws": {
+        "server": "wss://ws.luogu.com.cn/ws"
+    },
+    "codeLanguages": {
+        "5": {
+            "name": "\u63d0\u4ea4\u7b54\u6848",
+            "family": null,
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [],
+            "aceMode": "plain_text",
+            "hljsMode": "text",
+            "value": 5,
+            "type": "AnswerFile",
+            "order": 0
+        },
+        "1": {
+            "name": "Pascal",
+            "family": null,
+            "disabled": false,
+            "canO2": true,
+            "fileExtensions": [
+                "pas"
+            ],
+            "aceMode": "pascal",
+            "hljsMode": "pascal",
+            "value": 1,
+            "type": "Pascal",
+            "order": 1
+        },
+        "2": {
+            "name": "C",
+            "family": "c",
+            "disabled": false,
+            "canO2": true,
+            "fileExtensions": [
+                "c"
+            ],
+            "aceMode": "c_cpp",
+            "hljsMode": "c",
+            "value": 2,
+            "type": "C",
+            "order": 2
+        },
+        "28": {
+            "name": "C++14 (GCC 9)",
+            "family": "c",
+            "disabled": false,
+            "canO2": true,
+            "fileExtensions": [
+                "cc",
+                "cpp",
+                "cxx"
+            ],
+            "aceMode": "c_cpp",
+            "hljsMode": "cpp",
+            "value": 28,
+            "type": "Cpp14Gcc9",
+            "order": 3
+        },
+        "3": {
+            "name": "C++98",
+            "family": "c",
+            "disabled": false,
+            "canO2": true,
+            "fileExtensions": [
+                "cc",
+                "cpp",
+                "cxx"
+            ],
+            "aceMode": "c_cpp",
+            "hljsMode": "cpp",
+            "value": 3,
+            "type": "CPP98",
+            "order": 4
+        },
+        "4": {
+            "name": "C++11",
+            "family": "c",
+            "disabled": false,
+            "canO2": true,
+            "fileExtensions": [
+                "cc",
+                "cpp",
+                "cxx"
+            ],
+            "aceMode": "c_cpp",
+            "hljsMode": "cpp",
+            "value": 4,
+            "type": "CPP11",
+            "order": 5
+        },
+        "11": {
+            "name": "C++14",
+            "family": "c",
+            "disabled": false,
+            "canO2": true,
+            "fileExtensions": [
+                "cc",
+                "cpp",
+                "cxx"
+            ],
+            "aceMode": "c_cpp",
+            "hljsMode": "cpp",
+            "value": 11,
+            "type": "CPP14",
+            "order": 6
+        },
+        "12": {
+            "name": "C++17",
+            "family": "c",
+            "disabled": false,
+            "canO2": true,
+            "fileExtensions": [
+                "cc",
+                "cpp",
+                "cxx"
+            ],
+            "aceMode": "c_cpp",
+            "hljsMode": "cpp",
+            "value": 12,
+            "type": "CPP17",
+            "order": 7
+        },
+        "27": {
+            "name": "C++20",
+            "family": "c",
+            "disabled": false,
+            "canO2": true,
+            "fileExtensions": [
+                "cc",
+                "cpp",
+                "cxx"
+            ],
+            "aceMode": "c_cpp",
+            "hljsMode": "cpp",
+            "value": 27,
+            "type": "CPP20",
+            "order": 8
+        },
+        "6": {
+            "name": "Python 2",
+            "family": "python",
+            "disabled": true,
+            "canO2": false,
+            "fileExtensions": [
+                "py"
+            ],
+            "aceMode": "python",
+            "hljsMode": "python",
+            "value": 6,
+            "type": "Python2",
+            "order": 9
+        },
+        "24": {
+            "name": "PyPy 2",
+            "family": "python",
+            "disabled": true,
+            "canO2": false,
+            "fileExtensions": [
+                "py"
+            ],
+            "aceMode": "python",
+            "hljsMode": "python",
+            "value": 24,
+            "type": "PyPy2",
+            "order": 10
+        },
+        "7": {
+            "name": "Python 3",
+            "family": "python",
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "py"
+            ],
+            "aceMode": "python",
+            "hljsMode": "python",
+            "value": 7,
+            "type": "Python3",
+            "order": 11
+        },
+        "25": {
+            "name": "PyPy 3",
+            "family": "python",
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "py"
+            ],
+            "aceMode": "python",
+            "hljsMode": "python",
+            "value": 25,
+            "type": "PyPy3",
+            "order": 12
+        },
+        "8": {
+            "name": "Java 8",
+            "family": "java",
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "java"
+            ],
+            "aceMode": "java",
+            "hljsMode": "java",
+            "value": 8,
+            "type": "Java8",
+            "order": 13
+        },
+        "33": {
+            "name": "Java 21",
+            "family": "java",
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "java"
+            ],
+            "aceMode": "java",
+            "hljsMode": "java",
+            "value": 33,
+            "type": "Java21",
+            "order": 14
+        },
+        "15": {
+            "name": "Rust",
+            "family": null,
+            "disabled": false,
+            "canO2": true,
+            "fileExtensions": [
+                "rs"
+            ],
+            "aceMode": "rust",
+            "hljsMode": "rust",
+            "value": 15,
+            "type": "Rust",
+            "order": 15
+        },
+        "14": {
+            "name": "Go",
+            "family": null,
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "go"
+            ],
+            "aceMode": "golang",
+            "hljsMode": "golang",
+            "value": 14,
+            "type": "Go",
+            "order": 16
+        },
+        "19": {
+            "name": "Haskell",
+            "family": null,
+            "disabled": false,
+            "canO2": true,
+            "fileExtensions": [
+                "hs"
+            ],
+            "aceMode": "haskell",
+            "hljsMode": "haskell",
+            "value": 19,
+            "type": "Haskell",
+            "order": 17
+        },
+        "30": {
+            "name": "OCaml",
+            "family": null,
+            "disabled": false,
+            "canO2": true,
+            "fileExtensions": [
+                "ml"
+            ],
+            "aceMode": "ocaml",
+            "hljsMode": "ocaml",
+            "value": 30,
+            "type": "OCaml",
+            "order": 18
+        },
+        "31": {
+            "name": "Julia",
+            "family": null,
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "jl"
+            ],
+            "aceMode": "julia",
+            "hljsMode": "julia",
+            "value": 31,
+            "type": "Julia",
+            "order": 19
+        },
+        "32": {
+            "name": "Lua",
+            "family": null,
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "lua"
+            ],
+            "aceMode": "lua",
+            "hljsMode": "lua",
+            "value": 32,
+            "type": "Lua",
+            "order": 20
+        },
+        "20": {
+            "name": "Kotlin/Native",
+            "family": "kotlin",
+            "disabled": true,
+            "canO2": false,
+            "fileExtensions": [
+                "kt"
+            ],
+            "aceMode": "kotlin",
+            "hljsMode": "kotlin",
+            "value": 20,
+            "type": "KotlinNative",
+            "order": 21
+        },
+        "21": {
+            "name": "Kotlin/JVM",
+            "family": "kotlin",
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "kt"
+            ],
+            "aceMode": "kotlin",
+            "hljsMode": "kotlin",
+            "value": 21,
+            "type": "KotlinJvm",
+            "order": 22
+        },
+        "22": {
+            "name": "Scala",
+            "family": null,
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "scala"
+            ],
+            "aceMode": "scala",
+            "hljsMode": "scala",
+            "value": 22,
+            "type": "Scala",
+            "order": 23
+        },
+        "17": {
+            "name": "C# Mono",
+            "family": null,
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "cs"
+            ],
+            "aceMode": "csharp",
+            "hljsMode": "csharp",
+            "value": 17,
+            "type": "CSharp",
+            "order": 24
+        },
+        "18": {
+            "name": "Visual Basic Mono",
+            "family": null,
+            "disabled": true,
+            "canO2": false,
+            "fileExtensions": [
+                "vb"
+            ],
+            "aceMode": "vbscript",
+            "hljsMode": "vb",
+            "value": 18,
+            "type": "VB",
+            "order": 25
+        },
+        "29": {
+            "name": "F#.NET",
+            "family": null,
+            "disabled": true,
+            "canO2": false,
+            "fileExtensions": [
+                "fs"
+            ],
+            "aceMode": "fsharp",
+            "hljsMode": "fsharp",
+            "value": 29,
+            "type": "FSharp",
+            "order": 26
+        },
+        "9": {
+            "name": "Node.js LTS",
+            "family": null,
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "js"
+            ],
+            "aceMode": "javascript",
+            "hljsMode": "javascript",
+            "value": 9,
+            "type": "Node",
+            "order": 27
+        },
+        "10": {
+            "name": "Shell",
+            "family": null,
+            "disabled": true,
+            "canO2": false,
+            "fileExtensions": [
+                "sh"
+            ],
+            "aceMode": "sh",
+            "hljsMode": "shell",
+            "value": 10,
+            "type": "Shell",
+            "order": 28
+        },
+        "16": {
+            "name": "PHP",
+            "family": null,
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "php"
+            ],
+            "aceMode": "php",
+            "hljsMode": "php",
+            "value": 16,
+            "type": "PHP7",
+            "order": 29
+        },
+        "13": {
+            "name": "Ruby",
+            "family": null,
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "rb"
+            ],
+            "aceMode": "ruby",
+            "hljsMode": "ruby",
+            "value": 13,
+            "type": "Ruby",
+            "order": 30
+        },
+        "23": {
+            "name": "Perl",
+            "family": null,
+            "disabled": false,
+            "canO2": false,
+            "fileExtensions": [
+                "pl"
+            ],
+            "aceMode": "perl",
+            "hljsMode": "perl",
+            "value": 23,
+            "type": "Perl",
+            "order": 31
+        },
+        "26": {
+            "name": "\u6587\u8a00",
+            "family": null,
+            "disabled": true,
+            "canO2": false,
+            "fileExtensions": [
+                "wenyan"
+            ],
+            "aceMode": "plain_text",
+            "hljsMode": "text",
+            "value": 26,
+            "type": "Wenyan",
+            "order": 32
+        }
+    },
+    "contestRuleTypes": {
+        "1": {
+            "id": 1,
+            "name": "OI",
+            "color": "orange-3"
+        },
+        "2": {
+            "id": 2,
+            "name": "ICPC",
+            "color": "purple-3"
+        },
+        "3": {
+            "id": 3,
+            "name": "\u4e50\u591a",
+            "color": "gold-3"
+        },
+        "4": {
+            "id": 4,
+            "name": "IOI",
+            "color": "gold-3"
+        },
+        "5": {
+            "id": 5,
+            "name": "CodeForces (\u6682\u4e0d\u53ef\u7528)",
+            "color": "gold-3"
+        }
+    },
+    "recordStatus": {
+        "-1": {
+            "id": -1,
+            "name": "Unshown",
+            "shortName": "Unshown",
+            "color": "grey-5",
+            "filterable": false
+        },
+        "0": {
+            "id": 0,
+            "name": "Waiting",
+            "shortName": "Waiting",
+            "color": "blue-4",
+            "filterable": false
+        },
+        "1": {
+            "id": 1,
+            "name": "Judging",
+            "shortName": "Judging",
+            "color": "blue-3",
+            "filterable": false
+        },
+        "2": {
+            "id": 2,
+            "name": "Compile Error",
+            "shortName": "CE",
+            "color": "yellow-3",
+            "filterable": true
+        },
+        "3": {
+            "id": 3,
+            "name": "Output Limit Exceeded",
+            "shortName": "OLE",
+            "color": "blue-5",
+            "filterable": false
+        },
+        "4": {
+            "id": 4,
+            "name": "Memory Limit Exceeded",
+            "shortName": "MLE",
+            "color": "blue-5",
+            "filterable": false
+        },
+        "5": {
+            "id": 5,
+            "name": "Time Limit Exceeded",
+            "shortName": "TLE",
+            "color": "blue-5",
+            "filterable": false
+        },
+        "6": {
+            "id": 6,
+            "name": "Wrong Answer",
+            "shortName": "WA",
+            "color": "red-3",
+            "filterable": false
+        },
+        "7": {
+            "id": 7,
+            "name": "Runtime Error",
+            "shortName": "RE",
+            "color": "purple-3",
+            "filterable": false
+        },
+        "11": {
+            "id": 11,
+            "name": "Unknown Error",
+            "shortName": "UKE",
+            "color": "lapis-4",
+            "filterable": false
+        },
+        "12": {
+            "id": 12,
+            "name": "Accepted",
+            "shortName": "AC",
+            "color": "green-3",
+            "filterable": true
+        },
+        "14": {
+            "id": 14,
+            "name": "Unaccepted",
+            "shortName": "Unaccepted",
+            "color": "red-3",
+            "filterable": true
+        },
+        "21": {
+            "id": 21,
+            "name": "Hack Success",
+            "shortName": "Hack Success",
+            "color": "green-3",
+            "filterable": false
+        },
+        "22": {
+            "id": 22,
+            "name": "Hack Failure",
+            "shortName": "Hack Failure",
+            "color": "red-3",
+            "filterable": false
+        },
+        "23": {
+            "id": 23,
+            "name": "Hack Skipped",
+            "shortName": "Hack Skipped",
+            "color": "blue-5",
+            "filterable": false
+        }
+    },
+    "recordSortTypes": [
+        {
+            "id": 0,
+            "name": "\u6700\u65b0\u63d0\u4ea4"
+        },
+        {
+            "id": 1,
+            "name": "\u6700\u4f18\u89e3"
+        }
+    ],
+    "messageStatusTypes": [
+        {
+            "id": 0,
+            "name": "Deleted"
+        },
+        {
+            "id": 1,
+            "name": "Unread"
+        },
+        {
+            "id": 2,
+            "name": "Read"
+        }
+    ],
+    "translation": {
+        "authenticate": {
+            "logged_in": "\u60a8\u5df2\u7ecf\u767b\u5f55",
+            "weak_password": "\u5df2\u4e0d\u5141\u8bb8\u8fc7\u5f31\u7684\u5bc6\u7801\u767b\u5f55\uff0c\u8bf7\u91cd\u7f6e\u5bc6\u7801",
+            "wrong_password": "\u5bc6\u7801\u4e0d\u6b63\u786e",
+            "uid_mismatch": "UID\u4e0d\u5339\u914d",
+            "incorrect_password_or_code": "\u8f93\u5165\u7684\u5bc6\u7801\u6216\u8005\u4e24\u6b65\u9a8c\u8bc1\u7801\u9519\u8bef",
+            "unlocked": "\u7528\u6237\u5df2\u7ecf\u89e3\u9501"
+        },
+        "ban": {
+            "ip_ban": "\u8be5 IP \u5730\u5740\u88ab\u7981\u6b62\u8bbf\u95ee\u6d1b\u8c37\u3002\u6709\u7591\u95ee\u8bf7\u53d1\u9001\u90ae\u4ef6\u81f3 shensu283@luogu.com.cn \u8054\u7cfb\u7ba1\u7406\u5458\uff0c\u5e76\u63d0\u4f9b\u7528\u6237\u540d\u3001\u5b66\u6821\u540d\u5b57\u548c IP \u5730\u5740\u3002",
+            "user_ban": "\u8be5\u8d26\u6237\u88ab\u5c01\u7981\u6216\u5df2\u6ce8\u9500\u3002\u5982\u9700\u54a8\u8be2\u6216\u8005\u7533\u8bf7\u89e3\u5c01\uff0c\u8bf7\u53d1\u9001\u7b26\u5408\u8981\u6c42\u7684\u6750\u6599\u81f3\u7535\u5b50\u90ae\u7bb1 shensu283@luogu.com.cn\uff0c\u7ba1\u7406\u5458\u53ef\u80fd\u5728 30 \u65e5\u5185\u5904\u7406\uff0c\u4e5f\u6709\u53ef\u80fd\u4e0d\u56de\u590d\u3002"
+        },
+        "contest": {
+            "not_found": "\u6bd4\u8d5b\u672a\u627e\u5230",
+            "permission_denied": "\u60a8\u65e0\u6743\u67e5\u770b\u8be5\u6bd4\u8d5b",
+            "already_signed": "\u60a8\u5df2\u7ecf\u62a5\u540d\u8be5\u6bd4\u8d5b\u4e86",
+            "invalid_join_code": "\u9080\u8bf7\u7801\u9519\u8bef",
+            "invitation_code_used": "\u9080\u8bf7\u7801\u5df2\u88ab\u4f7f\u7528",
+            "not_ongoing": "\u6bd4\u8d5b\u5c1a\u672a\u5f00\u59cb",
+            "edit": {
+                "too_many_problems": "\u9898\u76ee\u6570\u91cf\u8fc7\u591a",
+                "no_edit_access": "\u60a8\u6ca1\u6709\u6743\u9650\u7f16\u8f91\u8be5\u6bd4\u8d5b",
+                "need_pid": "\u9700\u8981\u9009\u62e9\u9898\u76ee",
+                "can_not_add": "\u8fd9\u9053\u9898\u76ee\u65e0\u6cd5\u88ab\u6dfb\u52a0\u81f3\u8be5\u6bd4\u8d5b",
+                "need_score": "\u9700\u8981\u6307\u5b9a\u5206\u6570",
+                "need_visibility_type": "\u9700\u8981\u6307\u5b9a\u6bd4\u8d5b\u7c7b\u578b",
+                "not_qualified_for_public_contest": "\u60a8\u672a\u8fbe\u5230\u63d0\u4ea4\u516c\u5f00\u8d5b\u7684\u8981\u6c42\uff0c\u4e0d\u80fd\u63d0\u4ea4\u6bd4\u8d5b\u5ba1\u6838\u3002",
+                "can_not_change_public": "\u65e0\u6cd5\u76f4\u63a5\u8bbe\u7f6e\u4e3a\u5df2\u7ecf\u5ba1\u6838\u7684\u72b6\u6001\u6216\u8005\u66f4\u6539\u5927\u7c7b",
+                "need_hoster": "\u9700\u8981\u6307\u5b9a\u4e3e\u529e\u8005",
+                "no_access_hoster": "\u60a8\u65e0\u6743\u6307\u5b9a\u4e3e\u529e\u8005\u4e3a\u8fd9\u4e2a\u56e2\u961f\u6216\u8005\u7528\u6237",
+                "hoster_not_found": "\u4e3e\u529e\u8005\u672a\u627e\u5230",
+                "invalid_time": "\u5f00\u59cb\u65f6\u95f4\u5927\u4e8e\u7ed3\u675f\u65f6\u95f4",
+                "need_description": "\u9700\u8981\u6307\u5b9a\u63cf\u8ff0",
+                "need_name": "\u9700\u8981\u6307\u5b9a\u6bd4\u8d5b\u6807\u9898",
+                "need_method": "\u9700\u8981\u6307\u5b9a\u8d5b\u5236",
+                "need_startTime": "\u9700\u8981\u6307\u5b9a\u5f00\u59cb\u65f6\u95f4",
+                "need_endTime": "\u9700\u8981\u6307\u5b9a\u7ed3\u675f\u65f6\u95f4",
+                "had_added": "\u8be5\u9898\u76ee\u5df2\u7ecf\u52a0\u5165\u6bd4\u8d5b\uff0c\u5982\u679c\u9700\u8981\u8c03\u6574\u987a\u5e8f\uff0c\u8bf7\u5220\u9664\u9898\u76ee\u540e\u91cd\u65b0\u6dfb\u52a0",
+                "had_not_added": "\u8be5\u9898\u76ee\u5e76\u672a\u52a0\u5165\u6bd4\u8d5b",
+                "no_rated": "\u8be5\u6bd4\u8d5b\u4e0d\u662frated\u6bd4\u8d5b"
+            }
+        },
+        "discuss": {
+            "not_found": "\u4e0d\u5b58\u5728\u7684\u8ba8\u8bba",
+            "permission_denied": "\u60a8\u65e0\u6743\u67e5\u770b\u6b64\u8ba8\u8bba"
+        },
+        "framework": {
+            "request": {
+                "not_json_request": "\u63d0\u4ea4\u7684\u8bf7\u6c42\u4e0d\u662f\u5408\u6cd5\u7684JSON\u6570\u636e",
+                "query_invalid": "\u8bf7\u6c42\u53c2\u6570\u975e\u6cd5"
+            },
+            "serializer": {
+                "unexpected_force_type": "\u9519\u8bef\u7684ForceType",
+                "not_found": "Serializer\u672a\u627e\u5230",
+                "unexpected_criteria": "\u5e8f\u5217\u5316\u89c4\u5219\u4e0d\u5408\u6cd5"
+            }
+        },
+        "generic": {
+            "owner_not_verified": "\u8be5\u5185\u5bb9\u7684\u62e5\u6709\u8005\u6ca1\u6709\u5b8c\u6210\u5b9e\u540d\u8ba4\u8bc1",
+            "frequency_limit": "\u8bf7\u6c42\u9891\u7e41\uff0c\u8bf7\u7a0d\u5019\u518d\u8bd5",
+            "session_expired": "\u4f1a\u8bdd\u8d85\u65f6\uff0c\u8bf7\u5237\u65b0\u9875\u9762\u540e\u91cd\u8bd5",
+            "invalid_referer": "\u4e0d\u5408\u6cd5\u7684\u6765\u6e90\uff0c\u8bf7\u91cd\u8bd5",
+            "invalid_oauth_scope": "\u975e\u6cd5\u7684OAuth\u4f5c\u7528\u57df",
+            "access_denied": "\u62d2\u7edd\u8bbf\u95ee",
+            "not_found": "\u8be5\u9875\u9762\u672a\u627e\u5230",
+            "bad_request": "\u65e0\u6548\u8bf7\u6c42",
+            "unavailable_for_legal_reasons": "\u8be5\u529f\u80fd\u6682\u4e0d\u53ef\u7528",
+            "invalid_order_by": "\u4e0d\u5408\u6cd5\u7684\u6392\u5e8f\u53c2\u6570",
+            "invalid_order": "\u4e0d\u5408\u6cd5\u7684\u6392\u5e8f\u65b9\u5f0f"
+        },
+        "identity_certify": {
+            "invalid_national_id": "\u8eab\u4efd\u8bc1\u53f7\u4e0d\u5408\u6cd5",
+            "user_exists": "\u5df2\u7ecf\u6709\u5176\u4ed6\u8d26\u53f7\u4f7f\u7528\u8be5\u8eab\u4efd\u8bc1\u8fdb\u884c\u8ba4\u8bc1"
+        },
+        "message": {
+            "permission_denied": "\u60a8\u65e0\u6743\u64cd\u4f5c\u8be5\u4fe1\u606f",
+            "ban": "\u60a8\u5df2\u7ecf\u88ab\u7981\u6b62\u4f7f\u7528\u79c1\u4fe1\u529f\u80fd\u3002",
+            "need_user": "\u9700\u8981\u6307\u5b9a\u7528\u6237",
+            "need_id": "\u9700\u8981\u6307\u5b9a\u6d88\u606fid",
+            "not_found": "\u4e0d\u5b58\u5728\u8be5\u6d88\u606f\u6216\u8005\u5df2\u88ab\u5220\u9664",
+            "can_not_send_to_self": "\u4e0d\u80fd\u7ed9\u81ea\u5df1\u53d1\u9001\u79c1\u4fe1",
+            "too_long": "\u53d1\u9001\u7684\u6d88\u606f\u592a\u957f",
+            "receiver_banned": "\u6839\u636e\u5bf9\u65b9\u7684\u8bbe\u7f6e\uff0c\u60a8\u4e0d\u80fd\u5411TA\u53d1\u9001\u79c1\u4fe1"
+        },
+        "oierdb": {
+            "school_not_found": "\u672a\u627e\u5230\u5b66\u6821\u4fe1\u606f\uff0c\u8bf7\u8054\u7cfb\u7ba1\u7406\u5458\u8fdb\u884c\u4eba\u5de5\u8ba4\u8bc1",
+            "no_prize_found": "\u672a\u627e\u5230\u60a8\u7684\u83b7\u5956\u8bb0\u5f55\uff0c\u8bf7\u786e\u5b9a\u59d3\u540d\u3001\u5b66\u6821\u662f\u5426\u586b\u5199\u6b63\u786e\u3002\u4e5f\u6709\u53ef\u80fd\u662f\u5956\u9879\u5217\u8868\u5728\u6d1b\u8c37\u5c1a\u672a\u66f4\u65b0\u3002",
+            "cannot_match": "\u6839\u636e\u60a8\u63d0\u4f9b\u7684\u4fe1\u606f\uff0c\u6211\u4eec\u6682\u65f6\u65e0\u6cd5\u4e3a\u60a8\u8ba4\u8bc1\u5956\u9879\u3002\u8bf7\u60a8\u5728\u60a8\u7684\u5e38\u7528\u5730\u91cd\u8bd5\uff0c\u6216\u62cd\u7167\u6216\u626b\u63cf\u60a8\u7684\u8bc1\u4e66\uff0c\u53d1\u9001\u81f3 verify@luogu.com.cn \uff0c\u6211\u4eec\u5c06\u4eba\u5de5\u4e3a\u60a8\u5904\u7406\u3002"
+        },
+        "paste": {
+            "not_found": "\u526a\u8d34\u677f\u5185\u5bb9\u672a\u627e\u5230",
+            "permission_denied": "\u60a8\u65e0\u6743\u67e5\u770b\u8be5\u526a\u8d34\u677f"
+        },
+        "problem": {
+            "not_found": "\u9898\u76ee\u672a\u627e\u5230",
+            "permission_denied": "\u60a8\u65e0\u6743\u67e5\u770b\u8be5\u9898\u76ee",
+            "invalid_type": "\u4e0d\u5408\u6cd5\u7684\u9898\u76ee\u7c7b\u578b",
+            "invalid_page": "\u4e0d\u5408\u6cd5\u7684\u9875\u7801",
+            "uncreateable_type": "\u60a8\u65e0\u6cd5\u521b\u5efa\u8fd9\u7c7b\u9898\u76ee",
+            "solution_disabled": "\u8be5\u9898\u76ee\u672a\u542f\u7528\u9898\u89e3\u529f\u80fd",
+            "edit": {
+                "test_case_updaing": "\u6d4b\u8bd5\u70b9\u6b63\u5728\u66f4\u65b0",
+                "permission_denied": "\u60a8\u6ca1\u6709\u7f16\u8f91\u6b64\u9898\u76ee\u7684\u6743\u9650",
+                "no_test_data": "\u8bf7\u5148\u4e0a\u4f20\u6d4b\u8bd5\u6570\u636e",
+                "unexpected_strategy": "\u4e0d\u5408\u6cd5\u7684\u79ef\u5206\u7b56\u7565",
+                "need_scoring_script": "\u81ea\u5b9a\u4e49\u8ba1\u5206\u9700\u8981\u8ba1\u5206\u811a\u672c",
+                "same_type": "\u65e0\u6cd5\u8fc1\u79fb\u5230\u76f8\u540c\u7684\u7c7b\u578b",
+                "need_team_id": "\u9700\u8981\u63d0\u4f9b\u56e2\u961fID",
+                "unexpected_samples": "\u4e0d\u5408\u6cd5\u7684\u6837\u4f8b",
+                "unexpected_file_type": "\u4e0d\u5408\u6cd5\u7684\u6587\u4ef6\u7c7b\u578b",
+                "need_type": "\u9700\u8981\u6307\u5b9a\u521b\u5efa\u7684\u9898\u76ee\u7c7b\u578b",
+                "need_provider": "\u9700\u8981\u63d0\u4f9b\u56e2\u961fId",
+                "time_limit": "\u5355\u70b9\u65f6\u95f4\u9650\u5236\u4e0d\u53ef\u5927\u4e8e5s\uff0c\u5982\u6709\u9700\u8981\u8bf7\u8054\u7cfb\u7ba1\u7406\u5458",
+                "unexpected_time_limit": "\u4e0d\u5408\u6cd5\u7684\u65f6\u95f4\u9650\u5236",
+                "memory_limit": "\u5355\u70b9\u7a7a\u95f4\u4e0d\u53ef\u5927\u4e8e512MB\uff0c\u5982\u6709\u9700\u8981\u8bf7\u8054\u7cfb\u7ba1\u7406\u5458",
+                "unexpected_memory_limit": "\u4e0d\u5408\u6cd5\u7684\u7a7a\u95f4\u9650\u5236",
+                "unexpected_full_score": "\u4e0d\u5408\u6cd5\u7684\u5355\u70b9\u5206\u6570",
+                "too_many_subtask": "\u5b50\u4efb\u52a1\u6570\u4e0d\u53ef\u5927\u4e8e10\u4e2a\uff0c\u5982\u6709\u9700\u8981\u8bf7\u8054\u7cfb\u7ba1\u7406\u5458",
+                "total_time_limit": "\u603b\u65f6\u9650\u4e0d\u53ef\u5927\u4e8e120\u79d2\uff0c\u5982\u6709\u9700\u8981\u8bf7\u8054\u7cfb\u7ba1\u7406\u5458"
+            },
+            "attachment": {
+                "not_found": "\u9644\u4ef6\u672a\u627e\u5230",
+                "no_space_left": "\u9898\u76ee\u9644\u4ef6\u5df2\u7ecf\u6ca1\u6709\u5269\u4f59\u7a7a\u95f4"
+            },
+            "task_list": {
+                "problem_not_found": "\u8be5\u9898\u76ee\u5c1a\u672a\u6536\u85cf",
+                "too_long": "\u60a8\u5df2\u6536\u85cf\u4e86\u8fc7\u591a\u7684\u9898\u76ee",
+                "already_collected": "\u8be5\u9898\u76ee\u5df2\u7ecf\u88ab\u6536\u85cf"
+            },
+            "submit": {
+                "can_not_submit": "\u60a8\u4e0d\u80fd\u63d0\u4ea4\u8be5\u9898\u76ee",
+                "wrong_answer_count": "\u63d0\u4ea4\u7b54\u6848\u6570\u91cf\u4e0d\u6b63\u786e",
+                "frequency_limit_for_unverified_user": "\u63d0\u4ea4\u8fc7\u4e8e\u9891\u7e41\uff0c\u8bf7\u8fc710\u5206\u949f\u518d\u5c1d\u8bd5\uff0c\u60a8\u53ef\u8fdb\u884c\u5b9e\u540d\u8ba4\u8bc1\u4ee5\u63d0\u9ad8\u63d0\u4ea4\u9650\u5236\u6b21\u6570",
+                "frequency_limit": "\u63d0\u4ea4\u8fc7\u4e8e\u9891\u7e41\uff0c\u8bf7\u8fc73\u5206\u949f\u518d\u5c1d\u8bd5",
+                "long_time_problem_limit": "\u63d0\u4ea4\u957f\u65f6\u9650\u9898\u76ee\u8d85\u8fc7\u60a8\u5f53\u65e5\u6700\u5927\u9650\u5236",
+                "code_too_short": "\u4ee3\u7801\u8fc7\u77ed",
+                "code_too_long": "\u4ee3\u7801\u8fc7\u957f",
+                "disallowed_pragmas": "\u7a0b\u5e8f\u5305\u542b\u4e0d\u5141\u8bb8\u4f7f\u7528\u7684\u9884\u7f16\u8bd1\u5934\uff0c\u8bf7\u53bb\u9664\u540e\u91cd\u65b0\u63d0\u4ea4"
+            },
+            "resolve": {
+                "too_many_pids": "\u7ed9\u5b9a\u7684PID\u592a\u591a"
+            },
+            "clone": {
+                "vjudge_problem": "\u6682\u65f6\u4e0d\u652f\u6301\u514b\u9686RemoteJudge\u9898\u76ee",
+                "team_only": "\u6682\u65f6\u53ea\u652f\u6301\u514b\u9686\u5230\u56e2\u961f"
+            }
+        },
+        "record": {
+            "not_found": "\u8bb0\u5f55\u672a\u627e\u5230",
+            "permission_denied": "\u60a8\u4e0d\u80fd\u67e5\u770b\u672c\u6761\u8bc4\u6d4b\u8bb0\u5f55",
+            "ongoing_contest_only": "\u4ec5\u5141\u8bb8\u67e5\u770b\u6b63\u5728\u8fdb\u884c\u6216\u7ed3\u675f\u7684\u6bd4\u8d5b\u8bb0\u5f55",
+            "invalid_status": "\u4e0d\u5408\u6cd5\u7684\u8bb0\u5f55\u72b6\u6001",
+            "invalid_language": "\u4e0d\u5408\u6cd5\u7684\u8bed\u8a00\u7c7b\u578b",
+            "download": {
+                "exceed_limit": "\u60a8\u5df2\u8d85\u51fa\u672c\u65e5\u53ef\u4e0b\u8f7d\u6570\u636e\u6700\u5927\u6b21\u6570"
+            }
+        },
+        "team": {
+            "not_found": "\u56e2\u961f\u672a\u627e\u5230",
+            "disabled": "\u56e2\u961f\u5df2\u88ab\u5220\u9664\u6216\u5df2\u88ab\u7ba1\u7406\u5458\u7981\u7528",
+            "no_admin_permission": "\u6ca1\u6709\u56e2\u961f\u7ba1\u7406\u6743\u9650",
+            "cannot_remove_master": "\u56e2\u961f\u4e3b\u4e0d\u80fd\u591f\u9000\u51fa\u56e2\u961f",
+            "cannot_edit_group": "\u56e2\u961f\u5df2\u7981\u6b62\u7f16\u8f91\u81ea\u8eab\u7ec4\u522b\uff0c\u8bf7\u8054\u7cfb\u56e2\u961f\u7ba1\u7406\u5458\u3002",
+            "not_joined": "\u8be5\u7528\u6237\u672a\u52a0\u5165\u8be5\u56e2\u961f",
+            "exceeds_limit": "\u60a8\u5df2\u7ecf\u521b\u5efa\u3001\u52a0\u5165\u4e86\u8fc7\u591a\u56e2\u961f",
+            "too_many_groups": "\u521b\u5efa\u7684\u5206\u7ec4\u6570\u91cf\u8d85\u8fc7\u9650\u5236",
+            "group_name_length": "\u5206\u7ec4\u540d\u79f0\u5e94\u572820\u4e2a\u5b57\u7b26\u4ee5\u5185",
+            "group_name_character": "\u5206\u7ec4\u540d\u79f0\u4ec5\u80fd\u7531\u6c49\u5b57\u548cASCII\u5b57\u7b26\u7ec4\u6210\u3002",
+            "group_name_charset": "\u5206\u7ec4\u540d\u79f0\u4ec5\u80fd\u7531\u6c49\u5b57\u548cASCII\u5b57\u7b26\u7ec4\u6210\u3002",
+            "premium": {
+                "already_trialed": "\u8be5\u56e2\u961f\u66fe\u662f\u9ad8\u7ea7\u56e2\u961f\uff0c\u6216\u60a8\u5df2\u7ecf\u7533\u8bf7\u8fc7\u8bd5\u7528\u9ad8\u7ea7\u56e2\u961f\u529f\u80fd\u3002\u6bcf\u4e2a\u7528\u6237\u53ca\u56e2\u961f\u4ec5\u53ef\u7533\u8bf7\u4e00\u6b21\u8bd5\u7528\u3002",
+                "exceeds_normal_limit": "\u60a8\u5df2\u7ecf\u8d85\u8fc7\u4e86\u666e\u901a\u56e2\u961f\u4f7f\u7528\u8be5\u529f\u80fd\u7684\u9650\u5236\uff0c\u8bf7\u8ba2\u9605\u9ad8\u7ea7\u56e2\u961f\u670d\u52a1\u4ee5\u89e3\u9664\u9650\u5236\u3002",
+                "premium_only": "\u8be5\u529f\u80fd\u4ec5\u9650\u9ad8\u7ea7\u56e2\u961f\u4f7f\u7528\uff0c\u8bf7\u8ba2\u9605\u9ad8\u7ea7\u56e2\u961f\u670d\u52a1\u4ee5\u89e3\u9664\u9650\u5236\u3002",
+                "rename": "\u9ad8\u7ea7\u56e2\u961f\u5269\u4f59\u5929\u6570\u4e0d\u8db331\u5929\uff0c\u65e0\u6cd5\u66f4\u6539\u56e2\u961f\u540d\u79f0\uff0c\u8bf7\u7eed\u8d39\u540e\u66f4\u6539\u56e2\u961f\u540d\u3002"
+            },
+            "name": {
+                "duplicate_name": "\u548c\u5176\u4ed6\u7684\u56e2\u961f\u91cd\u540d\uff0c\u8bf7\u66f4\u6362\u540d\u79f0",
+                "length": "\u56e2\u961f\u540d\u957f\u5ea6\u5e94\u4ecb\u4e8e4\u523030\u5b57\u7b26\u4e4b\u95f4"
+            },
+            "join": {
+                "length": "\u9a8c\u8bc1\u4fe1\u606f\u957f\u5ea6\u5e94\u572830\u5b57\u4e4b\u95f4",
+                "needs_apply_message": "\u8bf7\u586b\u5199\u9a8c\u8bc1\u4fe1\u606f",
+                "already_joined": "\u60a8\u5df2\u52a0\u5165\u8be5\u56e2\u961f",
+                "pending_review": "\u60a8\u5df2\u7ecf\u7533\u8bf7\u8fc7\u52a0\u5165\u8be5\u56e2\u961f\uff0c\u6b63\u5728\u7b49\u5f85\u5ba1\u6838",
+                "join_disallowed": "\u8be5\u56e2\u961f\u4e0d\u5141\u8bb8\u7528\u6237\u52a0\u5165\uff0c\u8bf7\u4e0e\u56e2\u961f\u7ba1\u7406\u5458\u8054\u7cfb"
+            }
+        },
+        "upload_image": {
+            "not_found": "\u56fe\u7247\u672a\u627e\u5230",
+            "permission_denied": "\u60a8\u65e0\u6743\u7f16\u8f91\u8be5\u56fe\u7247\uff0c\u6216\u8005\u6ca1\u6709\u7ba1\u7406\u6743\u9650",
+            "ban": "\u60a8\u5c1a\u672a\u8fdb\u884c\u5b9e\u540d\u8ba4\u8bc1\u6216\u8005\u5df2\u7ecf\u88ab\u7981\u6b62\u4f7f\u7528\u56fe\u5e8a",
+            "no_space_left": "\u60a8\u5269\u4f59\u50a8\u5b58\u7a7a\u95f4\u4e0d\u591f\u4e0a\u4f20\u8be5\u56fe\u7247\u6216\u8005\u5df2\u7ecf\u88ab\u7981\u6b62\u4f7f\u7528\u56fe\u5e8a",
+            "image_only": "\u4ec5\u53ef\u4ee5\u4e0a\u4f20\u56fe\u7247",
+            "frequency_limit": "24h\u5185\u6700\u591a\u4e0a\u4f2050\u5f20\u56fe\u7247",
+            "not_oss_callback": "\u975e\u6cd5\u7684OSS\u56de\u8c03\u8bf7\u6c42",
+            "need_id": "\u9700\u8981\u63d0\u4f9b\u56fe\u7247id",
+            "need_user": "\u9700\u8981\u63d0\u4f9b\u7528\u6237",
+            "need_watermarkType": "\u9700\u8981\u63d0\u4f9b\u6c34\u5370\u7c7b\u578b",
+            "need_size": "\u9700\u8981\u63d0\u4f9b\u56fe\u7247\u5927\u5c0f",
+            "need_filename": "\u9700\u8981\u63d0\u4f9b\u6587\u4ef6\u540d",
+            "invalid_type": "\u4e0d\u5408\u6cd5\u7684\u7c7b\u578b",
+            "need_introduction": "\u4e2a\u4eba\u7b80\u4ecb\u4e0d\u80fd\u4e3a\u7a7a"
+        },
+        "user": {
+            "please_re_login": "\u8bf7\u767b\u51fa\uff0c\u5e76\u91cd\u65b0\u767b\u5f55\u60a8\u7684\u6d1b\u8c37\u8d26\u53f7\u3002\u4f7f\u7528\u7b2c\u4e09\u65b9\u767b\u9646\u65f6\uff0cRemote Judge\u6682\u65f6\u4e0d\u53ef\u4f7f\u7528\u3002",
+            "muted": "\u60a8\u5df2\u88ab\u7981\u8a00",
+            "not_found": "\u7528\u6237\u672a\u627e\u5230",
+            "not_logged_in": "\u7528\u6237\u5c1a\u672a\u767b\u5f55",
+            "not_verified": "\u7531\u4e8e\u60a8\u672a\u901a\u8fc7\u5b9e\u540d\u8ba4\u8bc1\uff0c\u65e0\u6cd5\u4f7f\u7528\u8be5\u529f\u80fd",
+            "not_admin": "\u60a8\u4e0d\u662f\u7ba1\u7406\u5458",
+            "special_account_status": "\u7cfb\u7edf\u68c0\u6d4b\u5230\u60a8\u7684\u8d26\u53f7\u5b58\u5728\u98ce\u9669\uff0c\u6682\u65f6\u65e0\u6cd5\u767b\u5f55\u3002\u8bf7\u60a8\u91cd\u7f6e\u5bc6\u7801\u540e\u5c1d\u8bd5\u91cd\u65b0\u767b\u5f55\u3002",
+            "cannot_follow": "\u6839\u636e\u5bf9\u65b9\u7528\u6237\u7684\u8bbe\u7f6e\uff0c\u60a8\u6682\u65f6\u65e0\u6cd5\u5173\u6ce8\u6b64\u7528\u6237",
+            "not_identity_certified": "\u7528\u6237\u5c1a\u672a\u7ed1\u5b9a\u8eab\u4efd\u8bc1\u53f7",
+            "same_status": "\u65b0\u7684\u7528\u6237\u5173\u7cfb\u4e0e\u539f\u6765\u76f8\u540c",
+            "need_setting": "\u9700\u8981\u63d0\u4f9b\u7528\u6237\u8bbe\u7f6e",
+            "slogan_too_long": "\u7b7e\u540d\u957f\u5ea6\u4e0d\u80fd\u8d85\u8fc7127\u5b57\u7b26",
+            "open_source_limit": {
+                "time": "\u7531\u4e8e\u60a8\u5728\u6b64\u52a0\u5165\u4ee3\u7801\u516c\u5f00\u8ba1\u5212\u672a\u6ee130\u5929\uff0c\u4e0d\u80fd\u9000\u51fa",
+                "unverified": "\u7531\u4e8e\u60a8\u672a\u8fdb\u884c\u5b9e\u540d\u8ba4\u8bc1\uff0c\u65e0\u6cd5\u52a0\u5165\u4ee3\u7801\u516c\u5f00\u8ba1\u5212"
+            },
+            "username": {
+                "length": "\u7528\u6237\u540d\u957f\u5ea6\u5e94\u4ecb\u4e8e4\u523020\u5b57\u8282",
+                "character": "\u7528\u6237\u540d\u4ec5\u80fd\u4f7f\u7528\u82f1\u6587\u5b57\u6bcd\u3001\u6570\u5b57\u3001\u4e0b\u5212\u7ebf\u6216\u4e2d\u6587",
+                "character_2": "\u7528\u6237\u540d\u4ec5\u80fd\u4f7f\u7528\u82f1\u6587\u5b57\u6bcd\u3001\u6570\u5b57\u3001\u4e0b\u5212\u7ebf",
+                "character_unverified": "\u7531\u4e8e\u60a8\u672a\u5b9e\u540d\u8ba4\u8bc1\uff08\u7ed1\u5b9a\u624b\u673a\u53f7\uff09\uff0c\u7528\u6237\u540d\u4ec5\u80fd\u4f7f\u7528\u82f1\u6587\u5b57\u6bcd\u3001\u6570\u5b57\u6216\u4e0b\u5212\u7ebf",
+                "numeric": "\u7528\u6237\u540d\u4e0d\u80fd\u4e3a\u7eaf\u6570\u5b57\u6216\u4ee5\u6570\u5b57\u5f00\u5934",
+                "username_taken": "\u8be5\u7528\u6237\u540d\u5df2\u88ab\u4f7f\u7528"
+            },
+            "password": {
+                "length": "\u5bc6\u7801\u957f\u5ea6\u5e94\u4ecb\u4e8e6\u523020\u5b57\u8282",
+                "charset": "\u5bc6\u7801\u9700\u8981\u5305\u542b\u81f3\u5c11\u4e00\u4e2a\u6570\u5b57\u548c\u4e00\u4e2a\u5b57\u6bcd",
+                "username": "\u5bc6\u7801\u4e0d\u80fd\u4e3a\u7528\u6237\u540d"
+            },
+            "register": {
+                "email_taken": "\u8be5\u90ae\u7bb1\u5df2\u88ab\u4f7f\u7528",
+                "phone_taken": "\u8be5\u624b\u673a\u5df2\u88ab\u4f7f\u7528"
+            },
+            "openid": {
+                "already_exists": "\u60a8\u5df2\u7ed1\u5b9a\u8be5\u5e73\u53f0\u8d26\u53f7"
+            },
+            "contact": {
+                "already_bind": "\u60a8\u5df2\u7ecf\u7ed1\u5b9a\u4e86\u8fd9\u79cd\u8054\u7cfb\u65b9\u5f0f",
+                "china_phone_only": "\u76ee\u524d\u4ec5\u652f\u6301\u4e2d\u56fd\u5927\u9646\u5883\u5185\u624b\u673a\u53f7\u7ed1\u5b9a"
+            }
+        },
+        "verify": {
+            "invalid_captcha": "\u9a8c\u8bc1\u7801\u9519\u8bef",
+            "wrong_verify_code": "\u90ae\u7bb1\u6216\u624b\u673a\u9a8c\u8bc1\u7801\u4e0d\u6b63\u786e",
+            "endpoint_format": "\u90ae\u7bb1\u6216\u624b\u673a\u683c\u5f0f\u4e0d\u6b63\u786e",
+            "3minute_frequency_limit": "\u53d1\u9001\u8fc7\u4e8e\u9891\u7e41\uff0c\u8bf7\u7a0d\u5019\u518d\u8bd5",
+            "ip_frequency_limit": "\u5f53\u524dIP\u8d85\u51fa\u5f53\u65e5\u53d1\u9001\u9650\u5236\uff0c\u8bf7\u660e\u65e5\u518d\u8bd5",
+            "endpoint_frequency_limit": "\u5f53\u524d\u624b\u673a\u53f7\u8d85\u51fa\u5f53\u65e5\u53d1\u9001\u9650\u5236\uff0c\u8bf7\u660e\u65e5\u518d\u8bd5",
+            "user_already_exist": "\u4f7f\u7528\u8be5\u90ae\u7bb1\u6216\u624b\u673a\u7684\u7528\u6237\u5df2\u5b58\u5728",
+            "user_not_exist": "\u4f7f\u7528\u8be5\u90ae\u7bb1\u6216\u624b\u673a\u7684\u7528\u6237\u4e0d\u5b58\u5728",
+            "2fa": {
+                "had_set": "\u60a8\u5df2\u7ecf\u8bbe\u7f6e\u4e86\u4e24\u6b65\u9a8c\u8bc1\u7801",
+                "unset": "\u60a8\u8fd8\u672a\u8bbe\u7f6e\u4e24\u90e8\u9a8c\u8bc1\u7801",
+                "incorrect_2fa_code": "\u9519\u8bef\u7684\u4e24\u6b65\u9a8c\u8bc1\u7801"
+            }
+        },
+        "vjudge": {
+            "invalid_oj": "\u4e0d\u5408\u6cd5\u7684OJ",
+            "email_name": "\u8bf7\u4f7f\u7528\u60a8\u5728OJ\u7684\u7528\u6237\u540d\u767b\u5f55\uff0c\u4e0d\u652f\u6301\u4f7f\u7528\u90ae\u7bb1\u7ed1\u5b9a\u8d26\u53f7",
+            "login_fail": "\u767b\u5f55\u5931\u8d25\uff08\u7528\u6237\u540d\u6216\u5bc6\u7801\u9519\u8bef\uff1f\uff09",
+            "network_error": "\u4e0e\u5bf9\u65b9OJ\u901a\u8baf\u4e0d\u7545\uff0c\u8bf7\u7a0d\u540e\u518d\u8bd5",
+            "logout_and_retry": "\u8bf7\u9000\u51fa\u5e76\u4f7f\u7528\u5bc6\u7801\u91cd\u65b0\u767b\u5f55\u540e\u518d\u6b21\u5c1d\u8bd5",
+            "unbind": "\u60a8\u5c1a\u672a\u7ed1\u5b9a\u8be5OJ\u8d26\u6237",
+            "bind_error": "\u8bfb\u53d6\u60a8\u7684OJ\u8d26\u6237\u6570\u636e\u65f6\u51fa\u73b0\u5f02\u5e38\uff0c\u8bf7\u91cd\u65b0\u7ed1\u5b9a\u5c1d\u8bd5",
+            "uva_public_account": "\u63d0\u4ea4UVa\u9898\u76ee\u65f6\u8bf7\u5148\u7ed1\u5b9a\u81ea\u5df1\u7684UVa\u8d26\u53f7",
+            "language_not_supported": "\u8be5OJ\u4e0d\u652f\u6301\u9009\u5b9a\u7684\u8bed\u8a00"
+        },
+        "training": {
+            "unexpected_type": "\u65e0\u6743\u521b\u5efa\u8be5\u7c7b\u578b\u7684\u9898\u5355",
+            "can_not_clone": "\u6b64\u9898\u5355\u65e0\u6cd5\u518d\u88ab\u8f6c\u5b58",
+            "can_not_view_scoreboard": "\u8be5\u9898\u5355\u65e0\u6cd5\u67e5\u770b\u79ef\u5206\u699c",
+            "has_joined": "\u5df2\u7ecf\u6536\u85cf\u8fc7\u9898\u5355",
+            "not_joined": "\u5c1a\u672a\u52a0\u5165\u8bad\u7ec3",
+            "not_found": "\u9898\u5355\u672a\u627e\u5230",
+            "setting": {
+                "title_too_long": "\u9898\u5355\u7684\u6807\u9898\u592a\u957f",
+                "empty_title": "\u6807\u9898\u4e0d\u53ef\u4e3a\u7a7a"
+            },
+            "homework": {
+                "exceeds_join_limit": "\u8be5\u4f5c\u4e1a\u53c2\u4e0e\u4eba\u6570\u5df2\u8d85\u51fa\u4e0a\u9650"
+            }
+        }
+    },
+    "problemDifficulty": [
+        {
+            "id": 0,
+            "name": "\u6682\u65e0\u8bc4\u5b9a",
+            "color": "grey-3"
+        },
+        {
+            "id": 1,
+            "name": "\u5165\u95e8",
+            "color": "pink-3"
+        },
+        {
+            "id": 2,
+            "name": "\u666e\u53ca\u2212",
+            "color": "orange-3"
+        },
+        {
+            "id": 3,
+            "name": "\u666e\u53ca/\u63d0\u9ad8\u2212",
+            "color": "gold-3"
+        },
+        {
+            "id": 4,
+            "name": "\u666e\u53ca+/\u63d0\u9ad8",
+            "color": "green-3"
+        },
+        {
+            "id": 5,
+            "name": "\u63d0\u9ad8+/\u7701\u9009\u2212",
+            "color": "blue-3"
+        },
+        {
+            "id": 6,
+            "name": "\u7701\u9009/NOI\u2212",
+            "color": "purple-3"
+        },
+        {
+            "id": 7,
+            "name": "NOI/NOI+/CTSC",
+            "color": "lapis-4"
+        }
+    ],
+    "senderEndpointTypes": {
+        "1": {
+            "id": 1,
+            "type": "Email"
+        },
+        "2": {
+            "id": 2,
+            "type": "SMS"
+        }
+    },
+    "contestAccessLevel": [
+        {
+            "id": 0,
+            "name": "ViewDisallowed"
+        },
+        {
+            "id": 1,
+            "name": "View"
+        },
+        {
+            "id": 2,
+            "name": "Join"
+        },
+        {
+            "id": 3,
+            "name": "ViewProblem"
+        },
+        {
+            "id": 4,
+            "name": "ViewScoreBoard"
+        },
+        {
+            "id": 5,
+            "name": "Management"
+        }
+    ],
+    "rankingSortTypes": [
+        {
+            "id": 0,
+            "valueName": "rating",
+            "name": "\u603b\u5206"
+        },
+        {
+            "id": 1,
+            "valueName": "basicRating",
+            "name": "\u57fa\u7840"
+        },
+        {
+            "id": 2,
+            "valueName": "socialRating",
+            "name": "\u793e\u533a"
+        },
+        {
+            "id": 3,
+            "valueName": "contestRating",
+            "name": "\u6bd4\u8d5b"
+        },
+        {
+            "id": 4,
+            "valueName": "practiceRating",
+            "name": "\u7ec3\u4e60"
+        },
+        {
+            "id": 5,
+            "valueName": "prizeRating",
+            "name": "\u6210\u5c31"
+        }
+    ],
+    "openIdPlatformTypes": {
+        "1": "\u5fae\u4fe1",
+        "2": "GitHub"
+    },
+    "UserPermissionType": {
+        "2": {
+            "type": "MainSiteEntrance",
+            "id": 2,
+            "name": "\u8fdb\u5165\u4e3b\u7ad9",
+            "role": null
+        },
+        "4": {
+            "type": "WebAdminEntrance",
+            "id": 4,
+            "name": "\u8fdb\u5165\u540e\u53f0",
+            "role": null
+        },
+        "8": {
+            "type": "AdminProblem",
+            "id": 8,
+            "name": "\u9898\u76ee\u7ba1\u7406",
+            "role": "ROLE_ADMIN_PROBLEM"
+        },
+        "16": {
+            "type": "AdminTeam",
+            "id": 16,
+            "name": "\u56e2\u961f\u7ba1\u7406",
+            "role": "ROLE_ADMIN_TEAM"
+        },
+        "32": {
+            "type": "AdminContest",
+            "id": 32,
+            "name": "\u6bd4\u8d5b\u7ba1\u7406",
+            "role": "ROLE_ADMIN_CONTEST"
+        },
+        "64": {
+            "type": "AdminDiscuss",
+            "id": 64,
+            "name": "\u79e9\u5e8f\u7ba1\u7406",
+            "role": "ROLE_ADMIN_DISCUSS"
+        },
+        "256": {
+            "type": "AdminUser",
+            "id": 256,
+            "name": "\u7528\u6237\u7ba1\u7406",
+            "role": "ROLE_ADMIN_USER"
+        },
+        "512": {
+            "type": "AdminArticle",
+            "id": 512,
+            "name": "\u4e13\u680f\u7ba1\u7406",
+            "role": "ROLE_ADMIN_BLOG"
+        },
+        "32768": {
+            "type": "FreeSpeech",
+            "id": 32768,
+            "name": "\u81ea\u7531\u53d1\u8a00",
+            "role": null
+        },
+        "65536": {
+            "type": "PrivateMessage",
+            "id": 65536,
+            "name": "\u53d1\u9001\u79c1\u4fe1",
+            "role": null
+        },
+        "131072": {
+            "type": "Article",
+            "id": 131072,
+            "name": "\u4f7f\u7528\u4e13\u680f",
+            "role": null
+        },
+        "524288": {
+            "type": "ImageHosting",
+            "id": 524288,
+            "name": "\u4f7f\u7528\u56fe\u5e8a",
+            "role": null
+        },
+        "1": {
+            "type": "Login",
+            "id": 1,
+            "name": "\u767b\u5f55\u9274\u6743",
+            "role": null
+        }
+    },
+    "contestVisibilityTypes": [
+        {
+            "id": 0,
+            "name": "\u5c01\u7981\u6bd4\u8d5b",
+            "color": "grey-5",
+            "userCreatable": false,
+            "scope": "disabled",
+            "invitation": false
+        },
+        {
+            "id": 1,
+            "name": "\u5b98\u65b9\u6bd4\u8d5b",
+            "color": "red-3",
+            "userCreatable": false,
+            "scope": "global",
+            "invitation": false
+        },
+        {
+            "id": 2,
+            "name": "\u56e2\u961f\u516c\u5f00\u8d5b",
+            "color": "green-4",
+            "userCreatable": false,
+            "scope": "team",
+            "invitation": false
+        },
+        {
+            "id": 3,
+            "name": "\u56e2\u961f\u5185\u90e8\u8d5b",
+            "color": "blue-3",
+            "userCreatable": true,
+            "scope": "team",
+            "invitation": false
+        },
+        {
+            "id": 4,
+            "name": "\u4e2a\u4eba\u516c\u5f00\u8d5b",
+            "color": "blue-3",
+            "userCreatable": false,
+            "scope": "personal",
+            "invitation": false
+        },
+        {
+            "id": 5,
+            "name": "\u4e2a\u4eba\u9080\u8bf7\u8d5b",
+            "color": "lapis-3",
+            "userCreatable": true,
+            "scope": "personal",
+            "invitation": true
+        },
+        {
+            "id": 6,
+            "name": "\u56e2\u961f\u9080\u8bf7\u8d5b",
+            "color": "lapis-3",
+            "userCreatable": true,
+            "scope": "team",
+            "invitation": true
+        },
+        {
+            "id": 7,
+            "name": "\u56e2\u961f\u516c\u5f00\u8d5b (\u5f85\u5ba1\u6838)",
+            "color": "green-4",
+            "userCreatable": true,
+            "scope": "team",
+            "invitation": false
+        },
+        {
+            "id": 8,
+            "name": "\u4e2a\u4eba\u516c\u5f00\u8d5b (\u5f85\u5ba1\u6838)",
+            "color": "blue-3",
+            "userCreatable": true,
+            "scope": "personal",
+            "invitation": false
+        }
+    ],
+    "userRelationshipTypes": [
+        {
+            "id": 0,
+            "type": "Unrelated"
+        },
+        {
+            "id": 1,
+            "type": "Following"
+        },
+        {
+            "id": 2,
+            "type": "Blacklisted"
+        }
+    ],
+    "scoringStrategyTypes": {
+        "0": {
+            "id": 0,
+            "type": "Sum",
+            "name": "\u52a0\u548c"
+        },
+        "1": {
+            "id": 1,
+            "type": "Min",
+            "name": "\u6700\u5c0f\u503c"
+        },
+        "2": {
+            "id": 2,
+            "type": "Max",
+            "name": "\u6700\u5927\u503c"
+        },
+        "3": {
+            "id": 3,
+            "type": "ScoreMinTimeMax",
+            "name": "\u6700\u5c0f\u5206\u503c\u3001\u6700\u5927\u65f6\u95f4"
+        },
+        "100": {
+            "id": 100,
+            "type": "Custom",
+            "name": "\u81ea\u5b9a\u4e49"
+        }
+    },
+    "problemTypes": {
+        "P": {
+            "id": "P",
+            "type": "Public",
+            "name": "\u4e3b\u9898\u5e93",
+            "vjudge": false,
+            "userCreatable": false,
+            "searchable": true,
+            "tds": "luogu:public"
+        },
+        "T": {
+            "id": "T",
+            "type": "Team",
+            "name": "\u56e2\u961f\u9898\u5e93",
+            "vjudge": false,
+            "userCreatable": true,
+            "searchable": false,
+            "tds": "luogu:private:team"
+        },
+        "U": {
+            "id": "U",
+            "type": "User",
+            "name": "\u4e2a\u4eba\u9898\u5e93",
+            "vjudge": false,
+            "userCreatable": true,
+            "searchable": false,
+            "tds": "luogu:private:user"
+        },
+        "B": {
+            "id": "B",
+            "type": "Beginner",
+            "name": "\u5165\u95e8\u4e0e\u9762\u8bd5",
+            "vjudge": false,
+            "userCreatable": false,
+            "searchable": true,
+            "tds": "luogu:public"
+        },
+        "CF": {
+            "id": "CF",
+            "type": "CodeForces",
+            "name": "CodeForces",
+            "vjudge": true,
+            "userCreatable": false,
+            "searchable": true,
+            "tds": "remote:codeforces"
+        },
+        "SP": {
+            "id": "SP",
+            "type": "SPOJ",
+            "name": "SPOJ",
+            "vjudge": true,
+            "userCreatable": false,
+            "searchable": true,
+            "tds": "remote:sphere"
+        },
+        "AT": {
+            "id": "AT",
+            "type": "AtCoder",
+            "name": "AtCoder",
+            "vjudge": true,
+            "userCreatable": false,
+            "searchable": true,
+            "tds": "remote:atcoder"
+        },
+        "UVA": {
+            "id": "UVA",
+            "type": "UVA",
+            "name": "UVA",
+            "vjudge": true,
+            "userCreatable": false,
+            "searchable": true,
+            "tds": "remote:uva"
+        }
+    },
+    "messageModeTypes": [
+        {
+            "id": 0,
+            "type": "Admin",
+            "name": "\u4ec5\u9650\u7ba1\u7406\u5458"
+        },
+        {
+            "id": 1,
+            "type": "Following",
+            "name": "\u5173\u6ce8\u7684\u4eba\u4e0e\u7ba1\u7406\u5458"
+        },
+        {
+            "id": 2,
+            "type": "Anyone",
+            "name": "\u6240\u6709\u4eba(\u62c9\u9ed1\u7684\u7528\u6237\u9664\u5916)"
+        }
+    ],
+    "TeamJoinRequestStatusTypes": [
+        {
+            "id": 0,
+            "type": "PendingReview",
+            "name": "\u7b49\u5f85\u5ba1\u6838"
+        },
+        {
+            "id": 1,
+            "type": "PassedReview",
+            "name": "\u5df2\u901a\u8fc7"
+        },
+        {
+            "id": 2,
+            "type": "FailedReview",
+            "name": "\u5df2\u62d2\u7edd"
+        },
+        {
+            "id": 3,
+            "type": "Canceled",
+            "name": "\u5df2\u53d6\u6d88"
+        }
+    ],
+    "problemFlagTypes": {
+        "-1": {
+            "id": -1,
+            "type": "Deleted",
+            "name": "\u5220\u9664"
+        },
+        "0": {
+            "id": 0,
+            "type": "Hidden",
+            "name": "\u9690\u85cf"
+        },
+        "2": {
+            "id": 2,
+            "type": "TeamAccessEnabled",
+            "name": "\u4ec5\u56e2\u961f\u53ef\u89c1"
+        },
+        "5": {
+            "id": 5,
+            "type": "PublicAccessEnabled",
+            "name": "\u516c\u4f17\u53ef\u89c1"
+        },
+        "6": {
+            "id": 6,
+            "type": "ContestMode",
+            "name": "\u6bd4\u8d5b\u8d5b\u9898"
+        }
+    },
+    "contestInvitationCodeTypes": {
+        "1": {
+            "id": 1,
+            "type": "FixedInvitationCode",
+            "name": "\u56fa\u5b9a\u9080\u8bf7\u7801"
+        },
+        "2": {
+            "id": 2,
+            "type": "GeneratedInvitationCode",
+            "name": "\u751f\u6210\u9a8c\u8bc1\u7801"
+        }
+    },
+    "trainingTypes": {
+        "0": {
+            "id": 0,
+            "type": "Hidden",
+            "name": "\u9690\u85cf\u9898\u5355",
+            "public": false,
+            "select": false,
+            "scope": "hidden",
+            "userCreatable": false,
+            "color": "grey-5"
+        },
+        "1": {
+            "id": 1,
+            "type": "Official",
+            "name": "\u5b98\u65b9\u9898\u5355",
+            "public": true,
+            "select": true,
+            "scope": "global",
+            "userCreatable": false,
+            "color": "red-3"
+        },
+        "2": {
+            "id": 2,
+            "type": "TeamPrivate",
+            "name": "\u56e2\u961f\u79c1\u6709",
+            "public": false,
+            "select": false,
+            "scope": "team",
+            "userCreatable": true,
+            "color": "green-4"
+        },
+        "7": {
+            "id": 7,
+            "type": "TeamPublic",
+            "name": "\u56e2\u961f\u516c\u5f00",
+            "public": true,
+            "select": false,
+            "scope": "team",
+            "userCreatable": true,
+            "color": "green-4"
+        },
+        "3": {
+            "id": 3,
+            "type": "TeamSelect",
+            "name": "\u56e2\u961f\u7cbe\u9009",
+            "public": true,
+            "select": true,
+            "scope": "team",
+            "userCreatable": false,
+            "color": "green-4"
+        },
+        "4": {
+            "id": 4,
+            "type": "TeamHomework",
+            "name": "\u56e2\u961f\u4f5c\u4e1a",
+            "public": false,
+            "select": false,
+            "scope": "team",
+            "userCreatable": true,
+            "color": "green-4"
+        },
+        "5": {
+            "id": 5,
+            "type": "UserPrivate",
+            "name": "\u4e2a\u4eba\u79c1\u6709",
+            "public": false,
+            "select": false,
+            "scope": "user",
+            "userCreatable": true,
+            "color": "lapis-3"
+        },
+        "8": {
+            "id": 8,
+            "type": "UserPublic",
+            "name": "\u4e2a\u4eba\u516c\u5f00",
+            "public": true,
+            "select": false,
+            "scope": "user",
+            "userCreatable": true,
+            "color": "lapis-3"
+        },
+        "6": {
+            "id": 6,
+            "type": "UserSelect",
+            "name": "\u4e2a\u4eba\u7cbe\u9009",
+            "public": true,
+            "select": true,
+            "scope": "user",
+            "userCreatable": false,
+            "color": "lapis-3"
+        }
+    },
+    "teamTypes": {
+        "0": {
+            "id": 0,
+            "displayName": "\u5df2\u505c\u7528"
+        },
+        "2": {
+            "id": 2,
+            "displayName": "\u666e\u901a"
+        },
+        "3": {
+            "id": 3,
+            "displayName": "\u5b98\u65b9"
+        }
+    },
+    "notificationTypes": {
+        "1": {
+            "id": 1,
+            "type": "At",
+            "name": "@\u6211\u7684"
+        },
+        "2": {
+            "id": 2,
+            "type": "Reply",
+            "name": "\u56de\u590d"
+        },
+        "3": {
+            "id": 3,
+            "type": "Others",
+            "name": "\u7cfb\u7edf\u901a\u77e5"
+        }
+    },
+    "imageHostingWatermarkTypes": [
+        {
+            "id": 0,
+            "name": "\u65e0\u6c34\u5370"
+        },
+        {
+            "id": 1,
+            "name": "Logo"
+        },
+        {
+            "id": 2,
+            "name": "Logo@\u6635\u79f0"
+        }
+    ],
+    "teamMemberTypes": {
+        "1": {
+            "id": 1,
+            "type": "Member",
+            "name": "\u6210\u5458"
+        },
+        "2": {
+            "id": 2,
+            "type": "Administrator",
+            "name": "\u7ba1\u7406\u5458"
+        },
+        "3": {
+            "id": 3,
+            "type": "Master",
+            "name": "\u6240\u6709\u8005"
+        }
+    },
+    "teamMemberPermissionTypes": {
+        "1": {
+            "id": 1,
+            "type": "TrainingManagementMask",
+            "name": "\u9898\u5355\u7ba1\u7406"
+        },
+        "2": {
+            "id": 2,
+            "type": "ProblemManagementMask",
+            "name": "\u9898\u76ee\u7ba1\u7406"
+        },
+        "4": {
+            "id": 4,
+            "type": "ContestManagementMask",
+            "name": "\u6bd4\u8d5b\u7ba1\u7406"
+        },
+        "8": {
+            "id": 8,
+            "type": "DiscussManagementMask",
+            "name": "\u8ba8\u8bba\u7ba1\u7406"
+        },
+        "16": {
+            "id": 16,
+            "type": "MemberManagementMask",
+            "name": "\u6210\u5458\u7ba1\u7406"
+        },
+        "32": {
+            "id": 32,
+            "type": "InfoManagementMask",
+            "name": "\u7b80\u4ecb\u7ba1\u7406"
+        },
+        "64": {
+            "id": 64,
+            "type": "FileManagementMask",
+            "name": "\u6587\u4ef6\u7ba1\u7406"
+        }
+    },
+    "teamJoinPermissionTypes": [
+        {
+            "id": 0,
+            "type": "NoReview",
+            "name": "\u52a0\u5165\u65e0\u9700\u5ba1\u6838"
+        },
+        {
+            "id": 1,
+            "type": "RequireReview",
+            "name": "\u52a0\u5165\u9700\u8981\u5ba1\u6838"
+        },
+        {
+            "id": 2,
+            "type": "Disallow",
+            "name": "\u4e0d\u5141\u8bb8\u52a0\u5165"
+        }
+    ],
+    "userPrizeShowLevelType": [
+        {
+            "id": 0,
+            "type": "Hidden",
+            "name": "\u9690\u85cf"
+        },
+        {
+            "id": 1,
+            "type": "WithoutYearAndScore",
+            "name": "\u4e0d\u542b\u5e74\u4efd\u548c\u5206\u6570"
+        },
+        {
+            "id": 2,
+            "type": "WithoutScore",
+            "name": "\u4e0d\u542b\u5206\u6570"
+        },
+        {
+            "id": 3,
+            "type": "ShowAll",
+            "name": "\u5c55\u793a"
+        }
+    ],
+    "ArticleCategory": {
+        "1": {
+            "type": "Personal",
+            "id": 1,
+            "name": "\u4e2a\u4eba\u8bb0\u5f55",
+            "color": null,
+            "locked": false,
+            "listing": false
+        },
+        "2": {
+            "type": "Solution",
+            "id": 2,
+            "name": "\u9898\u89e3",
+            "color": "blue-3",
+            "locked": true,
+            "listing": true
+        },
+        "3": {
+            "type": "Technology",
+            "id": 3,
+            "name": "\u79d1\u6280\u00b7\u5de5\u7a0b",
+            "color": "orange-3",
+            "locked": false,
+            "listing": true
+        },
+        "4": {
+            "type": "Theory",
+            "id": 4,
+            "name": "\u7b97\u6cd5\u00b7\u7406\u8bba",
+            "color": "purple-3",
+            "locked": false,
+            "listing": true
+        },
+        "5": {
+            "type": "Life",
+            "id": 5,
+            "name": "\u751f\u6d3b\u00b7\u6e38\u8bb0",
+            "color": "lgreen-3",
+            "locked": false,
+            "listing": true
+        },
+        "6": {
+            "type": "K12Study",
+            "id": 6,
+            "name": "\u5b66\u4e60\u00b7\u6587\u5316\u8bfe",
+            "color": "lapis-3",
+            "locked": false,
+            "listing": true
+        },
+        "7": {
+            "type": "Entertainment",
+            "id": 7,
+            "name": "\u4f11\u95f2\u00b7\u5a31\u4e50",
+            "color": "pink-3",
+            "locked": false,
+            "listing": true
+        },
+        "8": {
+            "type": "Gossip",
+            "id": 8,
+            "name": "\u95f2\u8bdd",
+            "color": null,
+            "locked": false,
+            "listing": false
+        }
+    },
+    "ArticlePromoteStatus": [
+        {
+            "type": "Non",
+            "id": 0,
+            "name": "\u672a\u63d0\u4ea4",
+            "canSubmit": true
+        },
+        {
+            "type": "Pending",
+            "id": 1,
+            "name": "\u7b49\u5f85\u5ba1\u6838",
+            "canSubmit": false
+        },
+        {
+            "type": "Available",
+            "id": 2,
+            "name": "\u901a\u8fc7",
+            "canSubmit": false
+        },
+        {
+            "type": "Rejected",
+            "id": 3,
+            "name": "\u88ab\u6253\u56de",
+            "canSubmit": true
+        }
+    ],
+    "ArticleStatus": [
+        {
+            "type": "Block",
+            "id": 0,
+            "name": "\u5c01\u7981"
+        },
+        {
+            "type": "Hidden",
+            "id": 1,
+            "name": "\u79c1\u6709"
+        },
+        {
+            "type": "Normal",
+            "id": 2,
+            "name": "\u516c\u5f00"
+        },
+        {
+            "type": "Delete",
+            "id": 3,
+            "name": "ArticleStatusType.Delete"
+        },
+        {
+            "type": "PermanentlyDelete",
+            "id": 4,
+            "name": "\u5df2\u5220\u9664"
+        }
+    ],
+    "ContestInvitationType": {
+        "1": {
+            "type": "FixedCode",
+            "id": 1,
+            "name": "\u56fa\u5b9a\u9080\u8bf7\u7801"
+        },
+        "2": {
+            "type": "GeneratedCode",
+            "id": 2,
+            "name": "\u751f\u6210\u9a8c\u8bc1\u7801"
+        }
+    },
+    "ContestMethodType": {
+        "1": {
+            "type": "Oi",
+            "id": 1,
+            "name": "OI",
+            "color": "orange-3"
+        },
+        "2": {
+            "type": "Icpc",
+            "id": 2,
+            "name": "ICPC",
+            "color": "purple-3"
+        },
+        "3": {
+            "type": "Rakuta",
+            "id": 3,
+            "name": "\u4e50\u591a",
+            "color": "gold-3"
+        },
+        "4": {
+            "type": "Ioi",
+            "id": 4,
+            "name": "IOI",
+            "color": "gold-3"
+        },
+        "5": {
+            "type": "Codeforces",
+            "id": 5,
+            "name": "Codeforces (\u6682\u4e0d\u53ef\u7528)",
+            "color": "gold-3"
+        }
+    },
+    "ContestPublicType": [
+        {
+            "type": "Disabled",
+            "id": 0,
+            "name": "\u5c01\u7981\u6bd4\u8d5b",
+            "color": "grey-5",
+            "scope": "disabled",
+            "userCreatable": false,
+            "invitation": false
+        },
+        {
+            "type": "Official",
+            "id": 1,
+            "name": "\u5b98\u65b9\u6bd4\u8d5b",
+            "color": "red-3",
+            "scope": "global",
+            "userCreatable": false,
+            "invitation": false
+        },
+        {
+            "type": "TeamPublic",
+            "id": 2,
+            "name": "\u56e2\u961f\u516c\u5f00\u8d5b",
+            "color": "green-4",
+            "scope": "team",
+            "userCreatable": false,
+            "invitation": false
+        },
+        {
+            "type": "TeamPrivate",
+            "id": 3,
+            "name": "\u56e2\u961f\u5185\u90e8\u8d5b",
+            "color": "blue-3",
+            "scope": "team",
+            "userCreatable": true,
+            "invitation": false
+        },
+        {
+            "type": "UserPublic",
+            "id": 4,
+            "name": "\u4e2a\u4eba\u516c\u5f00\u8d5b",
+            "color": "blue-3",
+            "scope": "user",
+            "userCreatable": false,
+            "invitation": false
+        },
+        {
+            "type": "UserInvitation",
+            "id": 5,
+            "name": "\u4e2a\u4eba\u9080\u8bf7\u8d5b",
+            "color": "lapis-3",
+            "scope": "user",
+            "userCreatable": true,
+            "invitation": true
+        },
+        {
+            "type": "TeamInvitation",
+            "id": 6,
+            "name": "\u56e2\u961f\u9080\u8bf7\u8d5b",
+            "color": "lapis-3",
+            "scope": "team",
+            "userCreatable": true,
+            "invitation": true
+        },
+        {
+            "type": "TeamPublicPendingReview",
+            "id": 7,
+            "name": "\u56e2\u961f\u516c\u5f00\u8d5b (\u5f85\u5ba1\u6838)",
+            "color": "green-4",
+            "scope": "team",
+            "userCreatable": true,
+            "invitation": false
+        },
+        {
+            "type": "UserPublicPendingReview",
+            "id": 8,
+            "name": "\u4e2a\u4eba\u516c\u5f00\u8d5b (\u5f85\u5ba1\u6838)",
+            "color": "blue-3",
+            "scope": "user",
+            "userCreatable": true,
+            "invitation": false
+        }
+    ],
+    "OpenIdPlatformType": {
+        "1": {
+            "type": "WeChat",
+            "id": 1,
+            "name": "\u5fae\u4fe1"
+        },
+        "2": {
+            "type": "GitHub",
+            "id": 2,
+            "name": "GitHub"
+        }
+    },
+    "ProblemType": {
+        "P": {
+            "type": "Public",
+            "id": "P",
+            "name": "\u4e3b\u9898\u5e93",
+            "vjudge": false,
+            "userCreatable": false,
+            "searchable": true
+        },
+        "B": {
+            "type": "Beginner",
+            "id": "B",
+            "name": "\u5165\u95e8\u4e0e\u9762\u8bd5",
+            "vjudge": false,
+            "userCreatable": false,
+            "searchable": true
+        },
+        "T": {
+            "type": "Team",
+            "id": "T",
+            "name": "\u56e2\u961f\u9898\u5e93",
+            "vjudge": false,
+            "userCreatable": true,
+            "searchable": false
+        },
+        "U": {
+            "type": "User",
+            "id": "U",
+            "name": "\u4e2a\u4eba\u9898\u5e93",
+            "vjudge": false,
+            "userCreatable": true,
+            "searchable": false
+        },
+        "CF": {
+            "type": "Codeforces",
+            "id": "CF",
+            "name": "Codeforces",
+            "vjudge": true,
+            "userCreatable": false,
+            "searchable": true
+        },
+        "SP": {
+            "type": "Sphere",
+            "id": "SP",
+            "name": "SPOJ",
+            "vjudge": true,
+            "userCreatable": false,
+            "searchable": true
+        },
+        "AT": {
+            "type": "AtCoder",
+            "id": "AT",
+            "name": "AtCoder",
+            "vjudge": true,
+            "userCreatable": false,
+            "searchable": true
+        },
+        "UVA": {
+            "type": "UVa",
+            "id": "UVA",
+            "name": "UVa",
+            "vjudge": true,
+            "userCreatable": false,
+            "searchable": true
+        }
+    },
+    "TeamJoinPermissionType": [
+        {
+            "type": "NoReview",
+            "id": 0,
+            "name": "\u52a0\u5165\u65e0\u9700\u5ba1\u6838"
+        },
+        {
+            "type": "RequireReview",
+            "id": 1,
+            "name": "\u52a0\u5165\u9700\u8981\u5ba1\u6838"
+        },
+        {
+            "type": "Disallow",
+            "id": 2,
+            "name": "\u4e0d\u5141\u8bb8\u52a0\u5165"
+        }
+    ],
+    "TeamJoinRequestStatusType": [
+        {
+            "type": "PendingReview",
+            "id": 0,
+            "name": "\u7b49\u5f85\u5ba1\u6838"
+        },
+        {
+            "type": "PassedReview",
+            "id": 1,
+            "name": "\u5df2\u901a\u8fc7"
+        },
+        {
+            "type": "FailedReview",
+            "id": 2,
+            "name": "\u5df2\u62d2\u7edd"
+        },
+        {
+            "type": "Canceled",
+            "id": 3,
+            "name": "\u5df2\u53d6\u6d88"
+        }
+    ],
+    "TeamMemberType": {
+        "1": {
+            "type": "Member",
+            "id": 1,
+            "name": "\u6210\u5458"
+        },
+        "2": {
+            "type": "Administrator",
+            "id": 2,
+            "name": "\u7ba1\u7406\u5458"
+        },
+        "3": {
+            "type": "Master",
+            "id": 3,
+            "name": "\u6240\u6709\u8005"
+        }
+    },
+    "TeamType": {
+        "0": {
+            "type": "Disabled",
+            "id": 0,
+            "name": "\u5df2\u505c\u7528\u7684\u56e2\u961f"
+        },
+        "2": {
+            "type": "Normal",
+            "id": 2,
+            "name": "\u666e\u901a\u56e2\u961f"
+        },
+        "3": {
+            "type": "Official",
+            "id": 3,
+            "name": "\u5b98\u65b9\u56e2\u961f"
+        }
+    },
+    "UserNotificationType": {
+        "1": {
+            "type": "Mention",
+            "id": 1,
+            "name": "@\u6211\u7684"
+        },
+        "2": {
+            "type": "Reply",
+            "id": 2,
+            "name": "\u56de\u590d\u6211\u7684"
+        },
+        "3": {
+            "type": "System",
+            "id": 3,
+            "name": "\u7cfb\u7edf\u901a\u77e5"
+        }
+    },
+    "UserOpenSourceType": {
+        "-1": {
+            "type": "PrivacyProtection",
+            "id": -1
+        },
+        "0": {
+            "type": "Disabled",
+            "id": 0
+        },
+        "1": {
+            "type": "Enabled",
+            "id": 1
+        }
+    },
+    "UserRelationshipType": [
+        {
+            "type": "Unrelated",
+            "id": 0
+        },
+        {
+            "type": "Following",
+            "id": 1
+        },
+        {
+            "type": "Blacklisted",
+            "id": 2
+        }
+    ],
+    "VoteType": {
+        "0": {
+            "type": "None",
+            "id": 0
+        },
+        "1": {
+            "type": "ThumbUp",
+            "id": 1
+        },
+        "-1": {
+            "type": "ThumbDown",
+            "id": -1
+        }
+    },
+    "route": {
+        "lfe_all_config": "/_lfe/config",
+        "lfe_tags": "/_lfe/tags",
+        "contest.list": "/contest/list",
+        "contest.show": "/contest/{id}",
+        "contest.edit": "/contest/edit/{id}",
+        "contest.new": "/contest/new",
+        "paste.list": "/paste",
+        "paste.new": "/paste/new",
+        "paste.edit": "/paste/edit/{id}",
+        "paste.delete": "/paste/delete/{id}",
+        "paste.show": "/paste/{id}",
+        "user.show": "/user/{uid}",
+        "user.notification": "/user/notification",
+        "user.setting": "/user/setting",
+        "user.bind_contact_endpoint": "/user/bindContactEndpoint",
+        "user.two_factor_setup": "/user/twoFactorSetup",
+        "user.annual_report": "/user/annual-report",
+        "problem.list": "/problem/list",
+        "problem.show": "/problem/{pid}",
+        "problem.edit": "/problem/edit/{pid}",
+        "problem.new": "/problem/new",
+        "problem.solution": "/problem/solution/{pid}",
+        "theme.list": "/theme/list",
+        "theme.setTheme": "/theme/setTheme/{id}",
+        "theme.design": "/theme/design/{id}",
+        "theme.edit": "/theme/edit/{id}",
+        "theme.delete": "/theme/delete/{id}",
+        "image.list": "/image",
+        "advertisement.get_advertisement": "/api/qiaFan/getFan/{groupId}",
+        "api.contest.join": "/fe/api/contest/join/{id}",
+        "api.contest.scoreboard": "/fe/api/contest/scoreboard/{id}",
+        "api.contest.export_scoreboard": "/fe/api/contest/exportScoreboard/{id}",
+        "api.contest.export_invitation_code": "/fe/api/contest/exportInvitationCode/{id}",
+        "api.contest.verify_problem": "/fe/api/contest/verifyProblem/{id}",
+        "api.contest.edit_problem": "/fe/api/contest/editProblem/{id}",
+        "api.contest.edit": "/fe/api/contest/edit/{id}",
+        "api.contest.freeze_scoreboard": "/fe/api/contest/freezeScoreboard/{id}",
+        "api.contest.new": "/fe/api/contest/new",
+        "api.contest.delete": "/fe/api/contest/delete/{id}",
+        "api.contest.invitation_code": "/fe/api/contest/invitationCodeList/{id}",
+        "api.contest.generate_invitation_code": "/fe/api/contest/generateInvitationCode/{id}",
+        "api.user.get_info": "/api/user/info/{uid}",
+        "api.user.clear_unread_notification": "/api/user/clearUnreadNotification",
+        "api.user.bind_contact_endpoint": "/api/user/bindContactEndpoint",
+        "api.user.wxa_phone_bind": "/api/user/wxaPhoneBind",
+        "api.user.two_factor_setup": "/api/user/twoFactorSetup",
+        "api.user.start_identity_certify": "/api/user/startIdentityCertify",
+        "api.user.finish_identity_certify": "/api/user/finishIdentityCertify",
+        "api.user.set_user_prize_show_level": "/api/user/setUserPrizeShowLevel/{id}",
+        "api.user.set_ccf_level_show_level": "/api/user/setCCFLevelShowLevel",
+        "api.user.update_relation_ship": "/api/user/updateRelationShip",
+        "api.user.search": "/api/user/search",
+        "api.user.followings": "/api/user/followings",
+        "api.user.followers": "/api/user/followers",
+        "api.user.blacklist": "/api/user/blacklist",
+        "api.user.update_slogan": "/api/user/updateSlogan",
+        "api.user.joined_contest": "/api/user/joinedContests",
+        "api.user.created_posts": "/api/user/createdPosts",
+        "api.user.created_problems": "/api/user/createdProblems",
+        "api.user.created_contests": "/api/user/createdContests",
+        "api.user.marked_trainings": "/api/user/markedTrainings",
+        "api.user.created_trainings": "/api/user/createdTrainings",
+        "api.user.submitted_team_join_request": "/api/user/submittedTeamJoinRequest",
+        "api.user.update_header_image": "/api/user/updateHeaderImage",
+        "api.user.update_setting": "/api/user/updateSetting",
+        "api.user.update_username": "/api/user/updateUsername",
+        "api.user.bind_vjudge_account": "/api/user/bindVjudgeAccount",
+        "api.user.unbind_vjudge_account": "/api/user/unbindVjudgeAccount",
+        "api.user.update_introduction": "/api/user/updateIntroduction",
+        "api.user.unbind_openid": "/api/user/unbindOpenId/{platform}",
+        "api.user.leave_organization": "/api/user/leaveOrganization",
+        "api.user.current_user_info_oauth2": "/api/user/currentUserInfoOAuth2",
+        "api.openid.connect": "/api/openid/connect/{platform}",
+        "api.problem.detail": "/fe/api/problem/detail/{pid}",
+        "api.problem.tasklist_add": "/fe/api/problem/tasklistAdd",
+        "api.problem.tasklist_remove": "/fe/api/problem/tasklistRemove",
+        "api.problem.submit": "/fe/api/problem/submit/{pid}",
+        "api.problem.resolve_pid": "/fe/api/problem/resolvePID",
+        "api.problem.generate_attachment_upload_link": "/fe/api/problem/generateAttachmentUploadLink/{pid}",
+        "api.problem.download_attachment": "/fe/api/problem/downloadAttachment/{id}",
+        "api.problem.delete_attachment": "/fe/api/problem/deleteAttachment/{id}",
+        "api.problem.generate_data_upload_link": "/fe/api/problem/generateDataUploadLink/{pid}",
+        "api.problem.testdata_download": "/fe/api/problem/generateDataDownloadLink/{pid}",
+        "api.problem.new": "/fe/api/problem/new",
+        "api.problem.edit": "/fe/api/problem/edit/{pid}",
+        "api.problem.delete": "/fe/api/problem/delete/{pid}",
+        "api.problem.edit_test_case": "/fe/api/problem/editTestCase/{pid}",
+        "api.problem.clear_test_data_upload_status": "/fe/api/problem/clearTestDataUploadStatus/{pid}",
+        "api.problem.transfer": "/fe/api/problem/transfer/{pid}",
+        "api.problem.translate": "/fe/api/problem/translate/{pid}",
+        "api.image.detail": "/api/image/detail/{id}",
+        "api.image.delete": "/api/image/delete",
+        "api.image.generate_upload_link": "/api/image/generateUploadLink",
+        "api.verify.captcha": "/api/verify/captcha",
+        "api.verify.send_verification_code": "/api/verify/sendVerificationCode",
+        "api.verify.send_two_factor_code": "/api/verify/sendTwoFactorCode",
+        "api.report.submit": "/api/report/{type}",
+        "api.feed.list": "/api/feed/list",
+        "api.auth.wxa_phone_one_key_auth": "/api/auth/wxaPhoneOneKeyAuth",
+        "api.auth.user_pass_login": "/api/auth/userPassLogin",
+        "api.auth.sync_login": "/api/auth/syncLogin",
+        "api.auth.logout": "/api/auth/logout",
+        "api.auth.register": "/api/auth/register",
+        "api.auth.forget_password": "/api/auth/forgetPassword",
+        "api.auth.update_password": "/api/auth/updatePassword",
+        "api.auth.lock": "/api/auth/lock",
+        "api.auth.unlock": "/api/auth/unlock",
+        "api.training.mark": "/api/training/mark/{id}",
+        "api.training.unmark": "/api/training/unmark/{id}",
+        "api.training.scoreboard": "/api/training/scoreboard/{id}",
+        "api.training.export_scoreboard": "/api/training/exportScoreboard/{id}",
+        "api.training.edit": "/api/training/edit/{id}",
+        "api.training.new": "/api/training/new",
+        "api.training.clone": "/api/training/clone/{id}",
+        "api.training.transfer": "/api/training/transfer/{id}",
+        "api.training.delete": "/api/training/delete/{id}",
+        "api.training.problems": "/api/training/problems/{id}",
+        "api.training.edit_problems": "/api/training/editProblems/{id}",
+        "api.training.add_problem": "/api/training/addProblem/{id}",
+        "api.training.participants": "/api/training/participants/{id}",
+        "api.training.edit_participants": "/api/training/editParticipants/{id}",
+        "api.record.query_downloadable_testcase": "/fe/api/record/queryDownloadableTestcase/{id}",
+        "api.record.perform_download_testcase": "/fe/api/record/downloadTestcase/{id}",
+        "api.record.get_last_record_id": "/fe/api/record/lastRecordId",
+        "api.team.join": "/api/team/join/{id}",
+        "api.team.create": "/api/team/create",
+        "api.team.delete": "/api/team/delete/{id}",
+        "api.team.exit": "/api/team/exit/{id}",
+        "api.team.kick": "/api/team/kick/{id}",
+        "api.team.review": "/api/team/review/{id}",
+        "api.team.cancel_join_request": "/api/team/cancelJoinRequest/{id}",
+        "api.team.edit_group": "/api/team/editGroup/{id}",
+        "api.team.edit_member": "/api/team/editMember/{id}",
+        "api.team.set_master": "/api/team/setMaster/{id}",
+        "api.team.members": "/api/team/members/{id}",
+        "api.team.contests": "/api/team/contests/{id}",
+        "api.team.trainings": "/api/team/trainings/{id}",
+        "api.team.problems": "/api/team/problems/{id}",
+        "api.team.edit": "/api/team/edit/{id}",
+        "api.team.rename": "/api/team/rename/{id}",
+        "api.team.ban_user": "/api/team/banUser/{id}",
+        "api.team.cancel_ban": "/api/team/cancelBan/{id}",
+        "api.team.create_team_upgrade_order": "/api/team/createTeamUpgradeOrder/{id}",
+        "api.team.team_upgrade_order_list": "/api/team/teamUpgradeOrderList/{id}",
+        "api.team.request_free_premium_trial": "/api/team/requestFreePremiumTrial/{id}",
+        "api.team.join_request_list": "/api/team/joinRequestList/{id}",
+        "api.team.file_list": "/api/team/fileList/{id}",
+        "api.team.generate_file_upload_link": "/api/team/generateFileUploadLink/{id}",
+        "api.team.download_file": "/api/team/downloadFile/{id}",
+        "api.team.delete_file": "/api/team/deleteFile/{id}",
+        "api.team.rename_file": "/api/team/renameFile/{id}",
+        "api.blog.list": "/api/blog/lists",
+        "api.blog.detail": "/api/blog/detail/{blogId}",
+        "api.blog.vote": "/api/blog/vote/{blogId}",
+        "api.blog.reply": "/api/blog/reply/{blogId}",
+        "api.blog.replies": "/api/blog/replies/{blogId}",
+        "api.blog.delete": "/api/blog/delete/{blogId}",
+        "api.blog.user_blogs": "/api/blog/userBlogs",
+        "api.chat.new": "/api/chat/new",
+        "api.chat.delete": "/api/chat/delete",
+        "api.chat.record": "/api/chat/record",
+        "api.chat.clear_unread": "/api/chat/clearUnread",
+        "api.oierdb.cities": "/api/oierdb/cities",
+        "api.oierdb.schools": "/api/oierdb/schools",
+        "api.oierdb.match_prize": "/api/oierdb/matchPrize",
+        "ranking.list": "/ranking",
+        "report": "/report/{type}",
+        "blog_admin.article.list": "/blogAdmin/article/list",
+        "blog_admin.article.edit": "/blogAdmin/article/edit/{blogID}",
+        "blog_admin.article.new": "/blogAdmin/article/new",
+        "blog_admin.article.comments": "/blogAdmin/article/comments/{blogID}",
+        "blog_admin.article.post_edit": "/blogAdmin/article/post_edit/{blogID}",
+        "blog_admin.article.post_new": "/blogAdmin/article/post_new",
+        "blog_admin.article.delete_comment": "/blogAdmin/article/deleteComment/{blogID}",
+        "auth.login": "/auth/login",
+        "auth.unlock": "/auth/unlock",
+        "auth.forget_password": "/auth/forgetPassword",
+        "auth.register": "/auth/register",
+        "auth.openid_landing": "/auth/openidLanding",
+        "app.ide": "/ide",
+        "training.list": "/training/list",
+        "training.show": "/training/{id}",
+        "training.edit": "/training/edit/{id}",
+        "training.new": "/training/new",
+        "record.list": "/record/list",
+        "record.show": "/record/{id}",
+        "team.show": "/team/{id}",
+        "team.setting": "/team/setting/{id}",
+        "team.upgrade": "/team/upgrade/{id}",
+        "team.create": "/team/create",
+        "old_discuss.list": "/olddiscuss/lists",
+        "blog.goto_mine": "/blog/gotoMine",
+        "blog.jump_to_post": "/blog/_post/{id}",
+        "blog.list": "/blog/{identifier}/",
+        "blog.sitemap": "/blog/{identifier}/_sitemap",
+        "blog.show": "/blog/{identifier}/{postIdentifier}",
+        "backend.oss_callback.image_hosting": "/backend/oss/image_hosting",
+        "backend.oss_callback.oss_file_upload": "/backend/oss/oss_file_upload",
+        "backend.oss_callback.problem_test_data": "/backend/oss/problemTestData",
+        "chat.list": "/chat",
+        "judgement": "/judgement",
+        "admin.api.article.promote": "/sadmin/api/article/promote/{lid}",
+        "admin.api.article.block": "/sadmin/api/article/ban/{lid}",
+        "admin.api.article.promotion_review.submit": "/sadmin/api/article/promotionReview/submit",
+        "admin.dashboard": "/sadmin",
+        "api.article.list": "/api/article/find",
+        "api.article.favor": "/api/article/favor/{lid}",
+        "api.article.vote": "/api/article/vote/{lid}",
+        "api.article.new": "/api/article/new",
+        "api.article.edit": "/api/article/edit/{lid}",
+        "api.article.delete": "/api/article/delete/{lid}",
+        "api.article.batch_edit": "/api/article/batchEdit",
+        "api.article.promotion_submit": "/api/article/requestPromotion/{lid}",
+        "api.article.promotion_withdraw": "/api/article/withdrawPromotion/{lid}",
+        "api.rating.elo": "/api/rating/elo",
+        "article.list": "/article",
+        "article.collection": "/article/collection/{id}",
+        "article.mine": "/article/mine",
+        "article.favored": "/article/favored",
+        "article.new": "/article/_new",
+        "article.show": "/article/{lid}",
+        "article.replies": "/article/{lid}/replies",
+        "article.reply": "/article/{lid}/reply",
+        "article.delete_reply": "/article/{lid}/deleteReply/{replyId}",
+        "article.edit": "/article/{lid}/edit",
+        "article.available_collection": "/article/{lid}/availableCollection",
+        "auth.lock": "/auth/lock",
+        "auth.logout": "/auth/logout",
+        "auth.login_methods": "/auth/login-methods",
+        "auth.by_cn_luogu": "/auth/byCN",
+        "auth.sync_login": "/auth/sync-login",
+        "do_auth.password": "/do-auth/password",
+        "do_auth.motp": "/do-auth/motp",
+        "do_auth.totp": "/do-auth/totp",
+        "do_auth.fido2": "/do-auth/fido2",
+        "do_auth.openid": "/do-auth/openid/{platform}",
+        "captcha": "/lg4/captcha",
+        "external_link_page": "/external-link",
+        "locale.switch": "/lg4/locale-switch/{locale}",
+        "discuss.list": "/discuss",
+        "discuss.post": "/discuss/new",
+        "discuss.do_post": "/discuss/post/{forum}",
+        "discuss.show": "/discuss/{id}",
+        "discuss.reply": "/discuss/{id}/reply",
+        "discuss.pin_reply": "/discuss/{id}/pinReply",
+        "discuss.lock": "/discuss/{id}/lock",
+        "discuss.delete": "/discuss/{id}/delete",
+        "discuss.reply.delete": "/discuss/reply/{id}/delete",
+        "openid.connect": "/openid/{platform}/connect",
+        "openid.bind": "/openid/{platform}/bind",
+        "ranking.elo": "/ranking/elo",
+        "user.sidebar_info": "/user/userNavInfo"
+    },
+    "routeAttr": {
+        "admin.dashboard": {
+            "instance": "admin"
+        },
+        "paste.new": {
+            "instance": "fe2018"
+        },
+        "paste.edit": {
+            "instance": "fe2018"
+        },
+        "paste.delete": {
+            "instance": "fe2018"
+        },
+        "paste.list": {
+            "instance": "fe2018"
+        },
+        "paste.show": {
+            "instance": "fe2018"
+        },
+        "lfe_all_config": {
+            "instance": "fe2018"
+        },
+        "lfe_tags": {
+            "instance": "fe2018"
+        },
+        "contest.list": {
+            "instance": "fe2018"
+        },
+        "contest.show": {
+            "instance": "fe2018"
+        },
+        "contest.edit": {
+            "instance": "fe2018"
+        },
+        "contest.new": {
+            "instance": "fe2018"
+        },
+        "user.show": {
+            "instance": "fe2018"
+        },
+        "user.notification": {
+            "instance": "fe2018"
+        },
+        "user.setting": {
+            "instance": "fe2018"
+        },
+        "user.bind_contact_endpoint": {
+            "instance": "fe2018"
+        },
+        "user.two_factor_setup": {
+            "instance": "fe2018"
+        },
+        "user.annual_report": {
+            "instance": "fe2018"
+        },
+        "problem.list": {
+            "instance": "fe2018"
+        },
+        "problem.show": {
+            "instance": "fe2018"
+        },
+        "problem.edit": {
+            "instance": "fe2018"
+        },
+        "problem.new": {
+            "instance": "fe2018"
+        },
+        "problem.solution": {
+            "instance": "fe2018"
+        },
+        "theme.list": {
+            "instance": "fe2018"
+        },
+        "theme.setTheme": {
+            "instance": "fe2018"
+        },
+        "theme.design": {
+            "instance": "fe2018"
+        },
+        "theme.edit": {
+            "instance": "fe2018"
+        },
+        "theme.delete": {
+            "instance": "fe2018"
+        },
+        "image.list": {
+            "instance": "fe2018"
+        },
+        "advertisement.get_advertisement": {
+            "instance": "fe2018"
+        },
+        "ranking.list": {
+            "instance": "fe2018"
+        },
+        "report": {
+            "instance": "fe2018"
+        },
+        "blog_admin.article.list": {
+            "instance": "fe2018"
+        },
+        "blog_admin.article.edit": {
+            "instance": "fe2018"
+        },
+        "blog_admin.article.new": {
+            "instance": "fe2018"
+        },
+        "blog_admin.article.comments": {
+            "instance": "fe2018"
+        },
+        "blog_admin.article.post_edit": {
+            "instance": "fe2018"
+        },
+        "blog_admin.article.post_new": {
+            "instance": "fe2018"
+        },
+        "blog_admin.article.delete_comment": {
+            "instance": "fe2018"
+        },
+        "auth.login": {
+            "instance": "fe2018"
+        },
+        "auth.unlock": {
+            "instance": "fe2018"
+        },
+        "auth.forget_password": {
+            "instance": "fe2018"
+        },
+        "auth.register": {
+            "instance": "fe2018"
+        },
+        "auth.openid_landing": {
+            "instance": "fe2018"
+        },
+        "app.ide": {
+            "instance": "fe2018"
+        },
+        "training.list": {
+            "instance": "fe2018"
+        },
+        "training.show": {
+            "instance": "fe2018"
+        },
+        "training.edit": {
+            "instance": "fe2018"
+        },
+        "training.new": {
+            "instance": "fe2018"
+        },
+        "record.list": {
+            "instance": "fe2018"
+        },
+        "record.show": {
+            "instance": "fe2018"
+        },
+        "team.show": {
+            "instance": "fe2018"
+        },
+        "team.setting": {
+            "instance": "fe2018"
+        },
+        "team.upgrade": {
+            "instance": "fe2018"
+        },
+        "team.create": {
+            "instance": "fe2018"
+        },
+        "old_discuss.list": {
+            "instance": "fe2018"
+        },
+        "blog.goto_mine": {
+            "instance": "fe2018"
+        },
+        "blog.jump_to_post": {
+            "instance": "fe2018"
+        },
+        "blog.list": {
+            "instance": "fe2018"
+        },
+        "blog.sitemap": {
+            "instance": "fe2018"
+        },
+        "blog.show": {
+            "instance": "fe2018"
+        },
+        "backend.oss_callback.image_hosting": {
+            "instance": "fe2018"
+        },
+        "backend.oss_callback.oss_file_upload": {
+            "instance": "fe2018"
+        },
+        "backend.oss_callback.problem_test_data": {
+            "instance": "fe2018"
+        },
+        "chat.list": {
+            "instance": "fe2018"
+        },
+        "judgement": {
+            "instance": "fe2018"
+        }
+    },
+    "_locale": "zh_CN",
+    "_instance": "main",
+    "routes": {
+        "lfe_all_config": "/_lfe/config",
+        "lfe_tags": "/_lfe/tags",
+        "contest.list": "/contest/list",
+        "contest.show": "/contest/{id}",
+        "contest.edit": "/contest/edit/{id}",
+        "contest.new": "/contest/new",
+        "paste.list": "/paste",
+        "paste.new": "/paste/new",
+        "paste.edit": "/paste/edit/{id}",
+        "paste.delete": "/paste/delete/{id}",
+        "paste.show": "/paste/{id}",
+        "user.show": "/user/{uid}",
+        "user.notification": "/user/notification",
+        "user.setting": "/user/setting",
+        "user.bind_contact_endpoint": "/user/bindContactEndpoint",
+        "user.two_factor_setup": "/user/twoFactorSetup",
+        "user.annual_report": "/user/annual-report",
+        "problem.list": "/problem/list",
+        "problem.show": "/problem/{pid}",
+        "problem.edit": "/problem/edit/{pid}",
+        "problem.new": "/problem/new",
+        "problem.solution": "/problem/solution/{pid}",
+        "theme.list": "/theme/list",
+        "theme.setTheme": "/theme/setTheme/{id}",
+        "theme.design": "/theme/design/{id}",
+        "theme.edit": "/theme/edit/{id}",
+        "theme.delete": "/theme/delete/{id}",
+        "image.list": "/image",
+        "advertisement.get_advertisement": "/api/qiaFan/getFan/{groupId}",
+        "api.contest.join": "/fe/api/contest/join/{id}",
+        "api.contest.scoreboard": "/fe/api/contest/scoreboard/{id}",
+        "api.contest.export_scoreboard": "/fe/api/contest/exportScoreboard/{id}",
+        "api.contest.export_invitation_code": "/fe/api/contest/exportInvitationCode/{id}",
+        "api.contest.verify_problem": "/fe/api/contest/verifyProblem/{id}",
+        "api.contest.edit_problem": "/fe/api/contest/editProblem/{id}",
+        "api.contest.edit": "/fe/api/contest/edit/{id}",
+        "api.contest.freeze_scoreboard": "/fe/api/contest/freezeScoreboard/{id}",
+        "api.contest.new": "/fe/api/contest/new",
+        "api.contest.delete": "/fe/api/contest/delete/{id}",
+        "api.contest.invitation_code": "/fe/api/contest/invitationCodeList/{id}",
+        "api.contest.generate_invitation_code": "/fe/api/contest/generateInvitationCode/{id}",
+        "api.user.get_info": "/api/user/info/{uid}",
+        "api.user.clear_unread_notification": "/api/user/clearUnreadNotification",
+        "api.user.bind_contact_endpoint": "/api/user/bindContactEndpoint",
+        "api.user.wxa_phone_bind": "/api/user/wxaPhoneBind",
+        "api.user.two_factor_setup": "/api/user/twoFactorSetup",
+        "api.user.start_identity_certify": "/api/user/startIdentityCertify",
+        "api.user.finish_identity_certify": "/api/user/finishIdentityCertify",
+        "api.user.set_user_prize_show_level": "/api/user/setUserPrizeShowLevel/{id}",
+        "api.user.set_ccf_level_show_level": "/api/user/setCCFLevelShowLevel",
+        "api.user.update_relation_ship": "/api/user/updateRelationShip",
+        "api.user.search": "/api/user/search",
+        "api.user.followings": "/api/user/followings",
+        "api.user.followers": "/api/user/followers",
+        "api.user.blacklist": "/api/user/blacklist",
+        "api.user.update_slogan": "/api/user/updateSlogan",
+        "api.user.joined_contest": "/api/user/joinedContests",
+        "api.user.created_posts": "/api/user/createdPosts",
+        "api.user.created_problems": "/api/user/createdProblems",
+        "api.user.created_contests": "/api/user/createdContests",
+        "api.user.marked_trainings": "/api/user/markedTrainings",
+        "api.user.created_trainings": "/api/user/createdTrainings",
+        "api.user.submitted_team_join_request": "/api/user/submittedTeamJoinRequest",
+        "api.user.update_header_image": "/api/user/updateHeaderImage",
+        "api.user.update_setting": "/api/user/updateSetting",
+        "api.user.update_username": "/api/user/updateUsername",
+        "api.user.bind_vjudge_account": "/api/user/bindVjudgeAccount",
+        "api.user.unbind_vjudge_account": "/api/user/unbindVjudgeAccount",
+        "api.user.update_introduction": "/api/user/updateIntroduction",
+        "api.user.unbind_openid": "/api/user/unbindOpenId/{platform}",
+        "api.user.leave_organization": "/api/user/leaveOrganization",
+        "api.user.current_user_info_oauth2": "/api/user/currentUserInfoOAuth2",
+        "api.openid.connect": "/api/openid/connect/{platform}",
+        "api.problem.detail": "/fe/api/problem/detail/{pid}",
+        "api.problem.tasklist_add": "/fe/api/problem/tasklistAdd",
+        "api.problem.tasklist_remove": "/fe/api/problem/tasklistRemove",
+        "api.problem.submit": "/fe/api/problem/submit/{pid}",
+        "api.problem.resolve_pid": "/fe/api/problem/resolvePID",
+        "api.problem.generate_attachment_upload_link": "/fe/api/problem/generateAttachmentUploadLink/{pid}",
+        "api.problem.download_attachment": "/fe/api/problem/downloadAttachment/{id}",
+        "api.problem.delete_attachment": "/fe/api/problem/deleteAttachment/{id}",
+        "api.problem.generate_data_upload_link": "/fe/api/problem/generateDataUploadLink/{pid}",
+        "api.problem.testdata_download": "/fe/api/problem/generateDataDownloadLink/{pid}",
+        "api.problem.new": "/fe/api/problem/new",
+        "api.problem.edit": "/fe/api/problem/edit/{pid}",
+        "api.problem.delete": "/fe/api/problem/delete/{pid}",
+        "api.problem.edit_test_case": "/fe/api/problem/editTestCase/{pid}",
+        "api.problem.clear_test_data_upload_status": "/fe/api/problem/clearTestDataUploadStatus/{pid}",
+        "api.problem.transfer": "/fe/api/problem/transfer/{pid}",
+        "api.problem.translate": "/fe/api/problem/translate/{pid}",
+        "api.image.detail": "/api/image/detail/{id}",
+        "api.image.delete": "/api/image/delete",
+        "api.image.generate_upload_link": "/api/image/generateUploadLink",
+        "api.verify.captcha": "/api/verify/captcha",
+        "api.verify.send_verification_code": "/api/verify/sendVerificationCode",
+        "api.verify.send_two_factor_code": "/api/verify/sendTwoFactorCode",
+        "api.report.submit": "/api/report/{type}",
+        "api.feed.list": "/api/feed/list",
+        "api.auth.wxa_phone_one_key_auth": "/api/auth/wxaPhoneOneKeyAuth",
+        "api.auth.user_pass_login": "/api/auth/userPassLogin",
+        "api.auth.sync_login": "/api/auth/syncLogin",
+        "api.auth.logout": "/api/auth/logout",
+        "api.auth.register": "/api/auth/register",
+        "api.auth.forget_password": "/api/auth/forgetPassword",
+        "api.auth.update_password": "/api/auth/updatePassword",
+        "api.auth.lock": "/api/auth/lock",
+        "api.auth.unlock": "/api/auth/unlock",
+        "api.training.mark": "/api/training/mark/{id}",
+        "api.training.unmark": "/api/training/unmark/{id}",
+        "api.training.scoreboard": "/api/training/scoreboard/{id}",
+        "api.training.export_scoreboard": "/api/training/exportScoreboard/{id}",
+        "api.training.edit": "/api/training/edit/{id}",
+        "api.training.new": "/api/training/new",
+        "api.training.clone": "/api/training/clone/{id}",
+        "api.training.transfer": "/api/training/transfer/{id}",
+        "api.training.delete": "/api/training/delete/{id}",
+        "api.training.problems": "/api/training/problems/{id}",
+        "api.training.edit_problems": "/api/training/editProblems/{id}",
+        "api.training.add_problem": "/api/training/addProblem/{id}",
+        "api.training.participants": "/api/training/participants/{id}",
+        "api.training.edit_participants": "/api/training/editParticipants/{id}",
+        "api.record.query_downloadable_testcase": "/fe/api/record/queryDownloadableTestcase/{id}",
+        "api.record.perform_download_testcase": "/fe/api/record/downloadTestcase/{id}",
+        "api.record.get_last_record_id": "/fe/api/record/lastRecordId",
+        "api.team.join": "/api/team/join/{id}",
+        "api.team.create": "/api/team/create",
+        "api.team.delete": "/api/team/delete/{id}",
+        "api.team.exit": "/api/team/exit/{id}",
+        "api.team.kick": "/api/team/kick/{id}",
+        "api.team.review": "/api/team/review/{id}",
+        "api.team.cancel_join_request": "/api/team/cancelJoinRequest/{id}",
+        "api.team.edit_group": "/api/team/editGroup/{id}",
+        "api.team.edit_member": "/api/team/editMember/{id}",
+        "api.team.set_master": "/api/team/setMaster/{id}",
+        "api.team.members": "/api/team/members/{id}",
+        "api.team.contests": "/api/team/contests/{id}",
+        "api.team.trainings": "/api/team/trainings/{id}",
+        "api.team.problems": "/api/team/problems/{id}",
+        "api.team.edit": "/api/team/edit/{id}",
+        "api.team.rename": "/api/team/rename/{id}",
+        "api.team.ban_user": "/api/team/banUser/{id}",
+        "api.team.cancel_ban": "/api/team/cancelBan/{id}",
+        "api.team.create_team_upgrade_order": "/api/team/createTeamUpgradeOrder/{id}",
+        "api.team.team_upgrade_order_list": "/api/team/teamUpgradeOrderList/{id}",
+        "api.team.request_free_premium_trial": "/api/team/requestFreePremiumTrial/{id}",
+        "api.team.join_request_list": "/api/team/joinRequestList/{id}",
+        "api.team.file_list": "/api/team/fileList/{id}",
+        "api.team.generate_file_upload_link": "/api/team/generateFileUploadLink/{id}",
+        "api.team.download_file": "/api/team/downloadFile/{id}",
+        "api.team.delete_file": "/api/team/deleteFile/{id}",
+        "api.team.rename_file": "/api/team/renameFile/{id}",
+        "api.blog.list": "/api/blog/lists",
+        "api.blog.detail": "/api/blog/detail/{blogId}",
+        "api.blog.vote": "/api/blog/vote/{blogId}",
+        "api.blog.reply": "/api/blog/reply/{blogId}",
+        "api.blog.replies": "/api/blog/replies/{blogId}",
+        "api.blog.delete": "/api/blog/delete/{blogId}",
+        "api.blog.user_blogs": "/api/blog/userBlogs",
+        "api.chat.new": "/api/chat/new",
+        "api.chat.delete": "/api/chat/delete",
+        "api.chat.record": "/api/chat/record",
+        "api.chat.clear_unread": "/api/chat/clearUnread",
+        "api.oierdb.cities": "/api/oierdb/cities",
+        "api.oierdb.schools": "/api/oierdb/schools",
+        "api.oierdb.match_prize": "/api/oierdb/matchPrize",
+        "ranking.list": "/ranking",
+        "report": "/report/{type}",
+        "blog_admin.article.list": "/blogAdmin/article/list",
+        "blog_admin.article.edit": "/blogAdmin/article/edit/{blogID}",
+        "blog_admin.article.new": "/blogAdmin/article/new",
+        "blog_admin.article.comments": "/blogAdmin/article/comments/{blogID}",
+        "blog_admin.article.post_edit": "/blogAdmin/article/post_edit/{blogID}",
+        "blog_admin.article.post_new": "/blogAdmin/article/post_new",
+        "blog_admin.article.delete_comment": "/blogAdmin/article/deleteComment/{blogID}",
+        "auth.login": "/auth/login",
+        "auth.unlock": "/auth/unlock",
+        "auth.forget_password": "/auth/forgetPassword",
+        "auth.register": "/auth/register",
+        "auth.openid_landing": "/auth/openidLanding",
+        "app.ide": "/ide",
+        "training.list": "/training/list",
+        "training.show": "/training/{id}",
+        "training.edit": "/training/edit/{id}",
+        "training.new": "/training/new",
+        "record.list": "/record/list",
+        "record.show": "/record/{id}",
+        "team.show": "/team/{id}",
+        "team.setting": "/team/setting/{id}",
+        "team.upgrade": "/team/upgrade/{id}",
+        "team.create": "/team/create",
+        "old_discuss.list": "/olddiscuss/lists",
+        "blog.goto_mine": "/blog/gotoMine",
+        "blog.jump_to_post": "/blog/_post/{id}",
+        "blog.list": "/blog/{identifier}/",
+        "blog.sitemap": "/blog/{identifier}/_sitemap",
+        "blog.show": "/blog/{identifier}/{postIdentifier}",
+        "backend.oss_callback.image_hosting": "/backend/oss/image_hosting",
+        "backend.oss_callback.oss_file_upload": "/backend/oss/oss_file_upload",
+        "backend.oss_callback.problem_test_data": "/backend/oss/problemTestData",
+        "chat.list": "/chat",
+        "judgement": "/judgement",
+        "admin.api.article.promote": "/sadmin/api/article/promote/{lid}",
+        "admin.api.article.block": "/sadmin/api/article/ban/{lid}",
+        "admin.api.article.promotion_review.submit": "/sadmin/api/article/promotionReview/submit",
+        "admin.dashboard": "/sadmin",
+        "api.article.list": "/api/article/find",
+        "api.article.favor": "/api/article/favor/{lid}",
+        "api.article.vote": "/api/article/vote/{lid}",
+        "api.article.new": "/api/article/new",
+        "api.article.edit": "/api/article/edit/{lid}",
+        "api.article.delete": "/api/article/delete/{lid}",
+        "api.article.batch_edit": "/api/article/batchEdit",
+        "api.article.promotion_submit": "/api/article/requestPromotion/{lid}",
+        "api.article.promotion_withdraw": "/api/article/withdrawPromotion/{lid}",
+        "api.rating.elo": "/api/rating/elo",
+        "article.list": "/article",
+        "article.collection": "/article/collection/{id}",
+        "article.mine": "/article/mine",
+        "article.favored": "/article/favored",
+        "article.new": "/article/_new",
+        "article.show": "/article/{lid}",
+        "article.replies": "/article/{lid}/replies",
+        "article.reply": "/article/{lid}/reply",
+        "article.delete_reply": "/article/{lid}/deleteReply/{replyId}",
+        "article.edit": "/article/{lid}/edit",
+        "article.available_collection": "/article/{lid}/availableCollection",
+        "auth.lock": "/auth/lock",
+        "auth.logout": "/auth/logout",
+        "auth.login_methods": "/auth/login-methods",
+        "auth.by_cn_luogu": "/auth/byCN",
+        "auth.sync_login": "/auth/sync-login",
+        "do_auth.password": "/do-auth/password",
+        "do_auth.motp": "/do-auth/motp",
+        "do_auth.totp": "/do-auth/totp",
+        "do_auth.fido2": "/do-auth/fido2",
+        "do_auth.openid": "/do-auth/openid/{platform}",
+        "captcha": "/lg4/captcha",
+        "external_link_page": "/external-link",
+        "locale.switch": "/lg4/locale-switch/{locale}",
+        "discuss.list": "/discuss",
+        "discuss.post": "/discuss/new",
+        "discuss.do_post": "/discuss/post/{forum}",
+        "discuss.show": "/discuss/{id}",
+        "discuss.reply": "/discuss/{id}/reply",
+        "discuss.pin_reply": "/discuss/{id}/pinReply",
+        "discuss.lock": "/discuss/{id}/lock",
+        "discuss.delete": "/discuss/{id}/delete",
+        "discuss.reply.delete": "/discuss/reply/{id}/delete",
+        "openid.connect": "/openid/{platform}/connect",
+        "openid.bind": "/openid/{platform}/bind",
+        "ranking.elo": "/ranking/elo",
+        "user.sidebar_info": "/user/userNavInfo"
+    },
+    "_version_lentille": "8296f1b8089481e5",
+    "_version": 1731596552
+}

@@ -29,9 +29,10 @@ from .utils import get_csrf_token, cached_method
 from .utils import _get
 
 
-def alist(session: utils.Session):
-    url = "https://www.luogu.com.cn/problem/list"
-    return _get(session, "problems", url)
+def alist(session: utils.Session, arg='', page=1):
+    url = f"https://www.luogu.com.cn/problem/list?page={page}" + f'&{arg}' if arg else ''
+
+    return _get(session, "problems"+''.join(x for x in arg.lower() if x in 'abcdefghijklmnopqrstuvwxyz1234567890'), url)
 
 
 class Problem:

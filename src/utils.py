@@ -171,6 +171,7 @@ class Session:
             headers={"x-csrf-token": get_csrf_token(self.session)},
         )
         r.raise_for_status()
+        del self.user
         return r.json()
 
     def changeSlogan(self, newSlogan:str):
@@ -193,8 +194,18 @@ class Session:
         self.changeSlogan(newSlogan)
 
     def currentUser(self) -> dict:
-        return self.session.post('https://www.luogu.com.cn/problem/list').json()['currentUser']
+        if 'user' not in self.__dict__:
+            self.user = self.session.post('https://www.luogu.com.cn/problem/list').json()['currentUser']
+        return self.user
         # print(self.session.post('https://www.luogu.com.cn/problem/list').text)
+
+    def unreadMessageCount(self):
+        return self.currentUser()['unreadMessageCount']
+
+    def unreadNoticeCount(self):
+        return self.currentUser()['unreadNoticeCount']
+
+
 
 
 
